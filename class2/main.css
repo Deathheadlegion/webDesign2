@@ -1,9 +1,24 @@
-.container {
+body {
+    margin: 0px;
+}
+
+.mainContainer {
     background-color: salmon;
+    width: 100%;
+    min-height: 300px;
 }
 
 @media (min-width: 768px) {
-    .container {
+    .mainContainer {
         background-color: dodgerblue;
+        width: 750px;
+        margin: 0px auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .mainContainer {
+        background-color: plum; 
+        width: 960px;
     }
 }
