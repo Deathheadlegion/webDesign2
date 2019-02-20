@@ -1,4 +1,4 @@
-/* Default settings*/
+/* Default settings mobile*/
 body {
     margin: 0px;
 }
@@ -36,17 +36,20 @@ nav.navBar a {
     color: darkred;
     line-height: 36px;
 }
-/*end of mobile*/
-
+/*beginning of tablet*/
 @media (min-width: 768px) {
     .mainContainer {
         background-color: dodgerblue;
         width: 750px;
         margin: 0px auto;
     }
-}
-/*end of tablet*/
 
+    nav.navBar li {
+        display: inline-block;
+    }
+}
+
+/*beginning of desktop*/
 @media (min-width: 992px) {
     .mainContainer {
         background-color: plum; 
