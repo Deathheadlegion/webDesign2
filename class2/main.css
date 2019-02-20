@@ -1,3 +1,4 @@
+/* Default settings*/
 body {
     margin: 0px;
 }
@@ -8,6 +9,35 @@ body {
     min-height: 300px;
 }
 
+nav.navBar {
+    background-color: darkseagreen;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+nav.navBar ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+nav.navBar li {
+    border-bottom: 2px solid darkred;
+}
+
+nav.navBar li:last-child {
+    border-bottom: none;
+}
+
+nav.navBar a {
+    font-size: 22px;
+    text-decoration: none;
+    color: darkred;
+    line-height: 36px;
+}
+/*end of mobile*/
+
 @media (min-width: 768px) {
     .mainContainer {
         background-color: dodgerblue;
@@ -15,6 +45,7 @@ body {
         margin: 0px auto;
     }
 }
+/*end of tablet*/
 
 @media (min-width: 992px) {
     .mainContainer {
