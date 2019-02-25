@@ -1,18 +1,22 @@
-/* Default settings mobile*/
+/* Default settings mobile********************************/
+@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans');
 body {
     margin: 0px;
+    background-color: rgb(219, 219, 219);
 }
 
-.mainContainer {
-    background-color: salmon;
+.section1 {
+    background-color: rgb(69, 113, 124);
     width: 100%;
     min-height: 300px;
 }
 
+/*navigation bar*/
 nav.navBar {
-    background-color: darkseagreen;
+    background-color: black;
     width: 100%;
-    padding: 10px 0px;
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 nav.navBar ul {
@@ -23,20 +27,45 @@ nav.navBar ul {
 }
 
 nav.navBar li {
-    border-bottom: 2px solid darkred;
+    border-bottom: 2px solid rgb(219, 219, 219);
 }
 
 nav.navBar li:last-child {
     border-bottom: none;
+    padding-bottom: 5px;
 }
 
 nav.navBar a {
-    font-size: 22px;
+    font-size: 24px;
     text-decoration: none;
-    color: darkred;
+    color: white;
     line-height: 36px;
+    font-family: 'Open Sans';
 }
-/*beginning of tablet*/
+
+.activeLink {
+    background-color: rgb(69, 113, 124);
+}
+
+/*header and images*/
+.images img {
+    width: 100%;
+    margin: auto;
+}
+
+.imageHeader {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Cabin';
+    padding: 20px 0px 20px 0px;
+}
+
+.text {
+    font-size: 18px;
+    padding: 25px 10px 25px 10px;
+}
+
+/*beginning of tablet****************************************************/
 @media (min-width: 768px) {
     .mainContainer {
         background-color: dodgerblue;
@@ -49,7 +78,7 @@ nav.navBar a {
     }
 }
 
-/*beginning of desktop*/
+/*beginning of desktop************************************************/
 @media (min-width: 992px) {
     .mainContainer {
         background-color: plum; 
