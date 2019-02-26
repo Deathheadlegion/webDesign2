@@ -229,6 +229,14 @@ nav.navBar a {
     }
 
     /*header and images*/
+    .section5 img {
+        background-color: rgb(69, 113, 124);
+        max-width: 400px;
+        min-height: 300px;
+        margin: auto;
+        display: block;
+    }
+
     .images img {
         width: 100%;
         margin: auto;
@@ -318,7 +326,7 @@ nav.navBar a {
 
     .section5 {
         background-color: rgb(69, 113, 124);
-        max-width: 400px;
+        max-width: 992px;
         min-height: 300px;
         margin: auto;
     }
