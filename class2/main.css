@@ -12,6 +12,13 @@ body {
     margin: auto;
 }
 
+.section2 {
+    background-color: rgb(69, 113, 124);
+    max-width: 375px;
+    min-height: 255px;
+    margin: auto;
+}
+
 /*navigation bar*/
 nav.navBar {
     background-color: black;
@@ -49,6 +56,10 @@ nav.navBar a {
 }
 
 /*contacts hyperlink*/
+.contactMe {
+    text-align: center;
+}
+
 .contactLink a {
     font-size: 24px;
     text-decoration: none;
