@@ -17,7 +17,7 @@ nav.navBar {
     background-color: black;
     width: 100%;
     padding: 0px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 25px 0px;
 }
 
 nav.navBar ul {
@@ -48,6 +48,15 @@ nav.navBar a {
     background-color: rgb(69, 113, 124);
 }
 
+/*contacts hyperlink*/
+.contactLink a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    line-height: 36px;
+    font-family: 'Open Sans';
+}
+
 /*header and images*/
 .images img {
     width: 100%;
@@ -61,8 +70,31 @@ nav.navBar a {
     padding: 20px 0px 20px 0px;
 }
 
+.imageHeader1 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    background-color: black;
+    font-family: 'Cabin';
+    padding: 20px 0px 20px 0px;
+}
+
 .text {
     font-size: 14px;
+    margin: 10px 10px 25px 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.text2 {
+    font-size: 24px;
+    margin: 10px 10px 25px 10px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.textPrice {
+    font-size: 24px;
     margin: 10px 10px 25px 10px;
     padding-bottom: 10px;
     text-align: center;
