@@ -15,7 +15,7 @@ body {
 .section2 {
     background-color: rgb(69, 113, 124);
     max-width: 375px;
-    min-height: 255px;
+    min-height: 320px;
     margin: auto;
 }
 
@@ -91,7 +91,7 @@ nav.navBar a {
 }
 
 .text {
-    font-size: 14px;
+    font-size: 18px;
     margin: 10px 10px 25px 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -114,13 +114,17 @@ nav.navBar a {
 /*beginning of tablet****************************************************/
 @media (min-width: 768px) {
     .mainContainer {
-        background-color: dodgerblue;
-        width: 750px;
+        background-color: rgb(69, 113, 124);
+        width: 768px;
         margin: 0px auto;
     }
 
     nav.navBar li {
         display: inline-block;
+    }
+
+    nav.navBar li {
+        border-bottom: none;
     }
 }
 
