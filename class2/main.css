@@ -83,6 +83,8 @@ nav.navBar a {
     background-color: rgb(69, 113, 124);
 }
 
+
+
 /*contacts hyperlink*/
 .contactMe {
     text-align: center;
@@ -227,6 +229,8 @@ nav.navBar a {
     .activeLink {
         background-color: none;
     }
+
+    
 
     /*header and images*/
     .section5 img {
