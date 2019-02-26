@@ -19,6 +19,34 @@ body {
     margin: auto;
 }
 
+.section3 {
+    background-color: rgb(69, 113, 124);
+    max-width: 375px;
+    min-height: 320px;
+    margin: auto;
+}
+
+.section4 {
+    background-color: rgb(69, 113, 124);
+    max-width: 375px;
+    min-height: 320px;
+    margin: auto;
+}
+
+.section5 {
+    background-color: rgb(69, 113, 124);
+    max-width: 375px;
+    min-height: 320px;
+    margin: auto;
+}
+
+.section6 {
+    background-color: rgb(69, 113, 124);
+    max-width: 375px;
+    min-height: 320px;
+    margin: auto;
+}
+
 /*navigation bar*/
 nav.navBar {
     background-color: black;
@@ -58,6 +86,11 @@ nav.navBar a {
 /*contacts hyperlink*/
 .contactMe {
     text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    line-height: 13px;
+    font-family: 'Open Sans';
 }
 
 .contactLink a {
@@ -75,10 +108,12 @@ nav.navBar a {
 }
 
 .imageHeader {
+    background-color: rgb(69, 113, 124);
     text-align: center;
     font-size: 36px;
     font-family: 'Cabin';
     padding: 20px 0px 20px 0px;
+    margin: 25px auto;
 }
 
 .imageHeader1 {
@@ -114,16 +149,62 @@ nav.navBar a {
 /*beginning of tablet****************************************************/
 @media (min-width: 768px) {
     
-    .mainContainer {
+    .grouped {
+        max-width: 768px;
+        margin: 4px auto;
+        padding: 0px;
+    }
+
+    .section1 {
         background-color: rgb(69, 113, 124);
-        width: 768px;
-        margin: 0px auto;
+        max-width: 382px;
+        min-height: 300px;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .section2 {
+        background-color: rgb(69, 113, 124);
+        max-width: 382px;
+        min-height: 300px;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .section3 {
+        background-color: rgb(69, 113, 124);
+        max-width: 382px;
+        min-height: 300px;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .section4 {
+        background-color: rgb(69, 113, 124);
+        max-width: 382px;
+        min-height: 300px;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .section5 {
+        background-color: rgb(69, 113, 124);
+        max-width: 768px;
+        min-height: 300px;
+        margin: auto;
+    }
+
+    .section6 {
+        background-color: rgb(69, 113, 124);
+        max-width: 768px;
+        min-height: 320px;
+        margin: auto;
     }
 
     /*navigation bar*/
     nav.navBar a {
-        font-size: 36px;
-        padding: 0px 45px 0px 45px;
+        font-size: 24px;
+        padding: 0px 65px 0px 65px;
         text-decoration: none;
         color: white;
         line-height: 60px;
@@ -146,12 +227,106 @@ nav.navBar a {
     .activeLink {
         background-color: none;
     }
+
+    /*header and images*/
+    .images img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .imageHeader {
+        background-color: rgb(69, 113, 124);
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Cabin';
+        padding: 20px 0px 20px 0px;
+    }
+
+    .text2 {
+        font-size: 24px;
+        margin: 10px 10px 25px 10px;
+        padding-top: 75px;
+        text-align: center;
+    }
+
+    .textPrice {
+        font-size: 30px;
+        margin: 10px 10px 25px 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    /*contacts hyperlink*/
+    .contactMe {
+        text-align: center;
+        font-size: 24px;
+        text-decoration: none;
+        color: white;
+        line-height: 47px;
+        font-family: 'Open Sans';
+    }
+
+    .contactLink a {
+        font-size: 24px;
+        text-decoration: none;
+        color: white;
+        line-height: 36px;
+        font-family: 'Open Sans';
+    }
 }
 
 /*beginning of desktop************************************************/
 @media (min-width: 992px) {
-    .mainContainer {
-        background-color: plum; 
-        width: 960px;
+    
+    .grouped {
+        max-width: 992px;
+        margin: 4px auto;
+        padding: 0px;
+    }
+
+    .section1 {
+        background-color: rgb(69, 113, 124);
+        max-width: 494px;
+        min-height: 300px;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .section2 {
+        background-color: rgb(69, 113, 124);
+        max-width: 494px;
+        min-height: 300px;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .section3 {
+        background-color: rgb(69, 113, 124);
+        max-width: 494px;
+        min-height: 300px;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .section4 {
+        background-color: rgb(69, 113, 124);
+        max-width: 494px;
+        min-height: 300px;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .section5 {
+        background-color: rgb(69, 113, 124);
+        max-width: 400px;
+        min-height: 300px;
+        margin: auto;
+    }
+
+    .section6 {
+        background-color: rgb(69, 113, 124);
+        max-width: 992px;
+        min-height: 320px;
+        margin: auto;
     }
 }
