@@ -113,10 +113,21 @@ nav.navBar a {
 
 /*beginning of tablet****************************************************/
 @media (min-width: 768px) {
+    
     .mainContainer {
         background-color: rgb(69, 113, 124);
         width: 768px;
         margin: 0px auto;
+    }
+
+    /*navigation bar*/
+    nav.navBar a {
+        font-size: 36px;
+        padding: 0px 45px 0px 45px;
+        text-decoration: none;
+        color: white;
+        line-height: 60px;
+        font-family: 'Open Sans';
     }
 
     nav.navBar li {
@@ -125,6 +136,15 @@ nav.navBar a {
 
     nav.navBar li {
         border-bottom: none;
+    }
+
+    nav.navBar li:last-child {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+
+    .activeLink {
+        background-color: none;
     }
 }
 
