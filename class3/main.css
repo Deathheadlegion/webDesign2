@@ -3,6 +3,13 @@
     background-color: rgb(69, 113, 124);
 }
 
+nav.navBar ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
 /*beginning off conatiner*/
 .container {
     background-color: oldlace;
