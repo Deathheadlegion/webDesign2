@@ -1,6 +1,6 @@
 /*beginning of nav bar*/
 .activeLink {
-    background-color: rgb(69, 113, 124);
+    background-color: rgb(196, 193, 38);
 }
 
 nav.navBar ul {
@@ -9,6 +9,18 @@ nav.navBar ul {
     margin: 0px;
     text-align: center;
 }
+
+nav.navBar a {
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 36px;
+    font-family: 'Open Sans';
+}
+
+nav.navBar a:hover {
+    background-color: rgb(196, 193, 38);
+}
+
 
 /*beginning off conatiner*/
 .container {
