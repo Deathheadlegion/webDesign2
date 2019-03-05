@@ -347,4 +347,13 @@ nav.navBar a {
     .purple {
         background-color: black;
     }
+
+    .adjust1 {
+        width: 100%;
+    }
+
+    .adjust2 {
+        min-height: 488px;
+    }
+
 }
