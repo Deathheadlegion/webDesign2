@@ -221,32 +221,38 @@ nav.navBar a {
     /*section colors*/
 
     .container {
-        max-width: 550px;
+        max-width: 768px;
         margin: 0px auto;
     }
 
     .red {
-        background-color: lightcoral;
+        background-color: silver;
+        min-height: 376px;
     }
 
     .green {
-        background-color: lightgreen;
+        background-color: black;
+        min-height: 376px
     }
 
     .blue {
-        background-color: lightskyblue;
+        background-color: rgb(168, 166, 35);
+        min-height: 376px
     }
 
     .yellow {
-        background-color: lightgoldenrodyellow;
+        background-color: black;
+        min-height: 376px
     }
 
     .cyan {
-        background-color: darkturquoise;
+        background-color: silver;
+        min-height: 376px
     }
 
     .purple {
-        background-color: plum;
+        background-color: black;
+        min-height: 376px
     }
 
     
