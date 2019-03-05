@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Reenie+Beanie');
 
+body {
+    background-color: black;
+   }
+
 p {
     font-family: 'Reenie Beanie', cursive;
 }
@@ -92,7 +96,7 @@ nav.navBar a {
 
     /*beginning of nav bar*/
     .activeLink {
-        background-color: white;
+        background-color: rgb(168, 166, 35);
     }
 
     nav.navBar {
@@ -120,7 +124,7 @@ nav.navBar a {
     /*nav bar*/
     nav.navBar li {
         display: inline-block;
-        width: 24.2%;
+        width: 24%;
     }
 
 }
@@ -146,7 +150,7 @@ nav.navBar a {
 
     /*beginning of nav bar*/
     .activeLink {
-        background-color: white;
+        background-color: rgb(168, 166, 35);
     }
 
     nav.navBar {
@@ -227,7 +231,7 @@ nav.navBar a {
     }
 
     .activeLink {
-        background-color: white;
+        background-color: rgb(168, 166, 35);
     }
 
     /*nav bar*/
