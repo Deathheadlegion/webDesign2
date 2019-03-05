@@ -90,8 +90,38 @@ nav.navBar a {
         width: 100%;
     }
 
+    /*beginning of nav bar*/
+    .activeLink {
+        background-color: white;
+        color: gold;
+    }
+
+    nav.navBar {
+        background-color: silver;
+        width: 100%;
+        padding: 0px;
+        margin: 0px 0px 25px 0px;
+    }
+
+    nav.navBar ul {
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    nav.navBar a {
+        font-size: 24px;
+        text-decoration: none;
+        line-height: 36px;
+        font-family: 'Cinzel', serif;
+        color: black;
+    }
+
+    /*nav bar*/
     nav.navBar li {
         display: inline-block;
+        width: 24.6%;
     }
 
 }
@@ -143,20 +173,17 @@ nav.navBar a {
         color: black;
     }
 
-    nav.navBar a:hover {
-        background-color: rgb(168, 166, 35);
-    }
-
     /*nav bar*/
     nav.navBar li {
         display: inline-block;
+        width: 24.6%;
     }
 
     
 }
 
 /*************************LARGE SCREENS*********************/
-@media (min-width: 992px) {
+@media (min-width: 992px)  {
     
     .large-width-25 {
         width: 25%;
@@ -172,5 +199,42 @@ nav.navBar a {
 
     .large-width-100 {
         width: 100%;
+    }
+    /*beginning of nav bar*/
+    .activeLink {
+        background-color: white;
+        color: gold;
+    }
+
+    nav.navBar {
+        background-color: silver;
+        width: 100%;
+        padding: 0px;
+        margin: 0px 0px 25px 0px;
+    }
+
+    nav.navBar ul {
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    nav.navBar a {
+        font-size: 24px;
+        text-decoration: none;
+        line-height: 36px;
+        font-family: 'Cinzel', serif;
+        color: black;
+    }
+
+    nav.navBar a:hover {
+        color: rgb(168, 166, 35);
+    }
+
+    /*nav bar*/
+    nav.navBar li {
+        display: inline-block;
+        width: 24%;
     }
 }
