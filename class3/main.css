@@ -93,7 +93,6 @@ nav.navBar a {
     /*beginning of nav bar*/
     .activeLink {
         background-color: white;
-        color: gold;
     }
 
     nav.navBar {
@@ -121,7 +120,7 @@ nav.navBar a {
     /*nav bar*/
     nav.navBar li {
         display: inline-block;
-        width: 24.6%;
+        width: 24.2%;
     }
 
 }
@@ -148,7 +147,6 @@ nav.navBar a {
     /*beginning of nav bar*/
     .activeLink {
         background-color: white;
-        color: gold;
     }
 
     nav.navBar {
@@ -201,10 +199,6 @@ nav.navBar a {
         width: 100%;
     }
     /*beginning of nav bar*/
-    .activeLink {
-        background-color: white;
-        color: gold;
-    }
 
     nav.navBar {
         background-color: silver;
@@ -230,6 +224,10 @@ nav.navBar a {
 
     nav.navBar a:hover {
         color: rgb(168, 166, 35);
+    }
+
+    .activeLink {
+        background-color: white;
     }
 
     /*nav bar*/
