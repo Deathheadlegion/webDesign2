@@ -1,3 +1,9 @@
+/*beginning of nav bar*/
+.activeLink {
+    background-color: rgb(69, 113, 124);
+}
+
+/*beginning off conatiner*/
 .container {
     background-color: oldlace;
 }
