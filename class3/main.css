@@ -48,7 +48,7 @@ nav.navBar a {
 
 /*beginning of container*/
 .container {
-    background-color: silver;
+    background-color: black;
 }
 
 /*section colors*/
@@ -181,6 +181,10 @@ nav.navBar a {
         width: 100%;
     }
 
+    img {
+        width: 100%;
+    }
+
     /*beginning of nav bar*/
     .activeLink {
         background-color: rgb(168, 166, 35);
@@ -190,7 +194,7 @@ nav.navBar a {
         background-color: silver;
         width: 100%;
         padding: 0px;
-        margin: 0px 0px 25px 0px;
+        margin: 0px auto 25px auto;
     }
 
     nav.navBar ul {
@@ -211,10 +215,16 @@ nav.navBar a {
     /*nav bar*/
     nav.navBar li {
         display: inline-block;
-        width: 24.6%;
+        width: 23.6%;
     }
 
     /*section colors*/
+
+    .container {
+        max-width: 550px;
+        margin: 0px auto;
+    }
+
     .red {
         background-color: lightcoral;
     }
