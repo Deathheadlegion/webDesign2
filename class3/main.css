@@ -134,10 +134,6 @@ nav.navBar a {
     }
 
     /*nav bar*/
-    nav.navBar li {
-        display: inline-block;
-        width: 24%;
-    }
 
     /*section colors*/
     .red {
