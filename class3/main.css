@@ -137,27 +137,27 @@ nav.navBar a {
 
     /*section colors*/
     .red {
-        background-color: lightcoral;
+        background-color: rgb(168, 166, 35);
     }
-
+    
     .green {
-        background-color: lightgreen;
+        background-color: black;
     }
-
+    
     .blue {
-        background-color: lightskyblue;
+        background-color: rgb(179, 241, 236);
     }
-
+    
     .yellow {
-        background-color: lightgoldenrodyellow;
+        background-color: black;
     }
-
+    
     .cyan {
-        background-color: darkturquoise;
+        background-color: rgb(168, 166, 35);
     }
-
+    
     .purple {
-        background-color: plum;
+        background-color: black;
     }
 
 }
