@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Reenie+Beanie');
+
+p {
+    font-family: 'Reenie Beanie', cursive;
+}
+
 /*beginning of nav bar*/
 .activeLink {
-    background-color: rgb(196, 193, 38);
+    background-color: rgb(168, 166, 35);
+}
+
+nav.navBar {
+    background-color: silver;
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 25px 0px;
 }
 
 nav.navBar ul {
@@ -14,7 +27,8 @@ nav.navBar a {
     font-size: 24px;
     text-decoration: none;
     line-height: 36px;
-    font-family: 'Open Sans';
+    font-family: 'Cinzel', serif;
+    color: black;
 }
 
 nav.navBar a:hover {
