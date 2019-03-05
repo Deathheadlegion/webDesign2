@@ -31,12 +31,7 @@ nav.navBar a {
     color: black;
 }
 
-nav.navBar a:hover {
-    background-color: rgb(196, 193, 38);
-}
-
-
-/*beginning off conatiner*/
+/*beginning of container*/
 .container {
     background-color: oldlace;
 }
@@ -94,6 +89,11 @@ nav.navBar a:hover {
     .small-width-100 {
         width: 100%;
     }
+
+    nav.navBar li {
+        display: inline-block;
+    }
+
 }
 
 /****************MEDIUM SCREENS************************/
@@ -114,6 +114,45 @@ nav.navBar a:hover {
     .med-width-100 {
         width: 100%;
     }
+
+    /*beginning of nav bar*/
+    .activeLink {
+        background-color: white;
+        color: gold;
+    }
+
+    nav.navBar {
+        background-color: silver;
+        width: 100%;
+        padding: 0px;
+        margin: 0px 0px 25px 0px;
+    }
+
+    nav.navBar ul {
+        list-style: none;
+        padding-left: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    nav.navBar a {
+        font-size: 24px;
+        text-decoration: none;
+        line-height: 36px;
+        font-family: 'Cinzel', serif;
+        color: black;
+    }
+
+    nav.navBar a:hover {
+        background-color: rgb(168, 166, 35);
+    }
+
+    /*nav bar*/
+    nav.navBar li {
+        display: inline-block;
+    }
+
+    
 }
 
 /*************************LARGE SCREENS*********************/
