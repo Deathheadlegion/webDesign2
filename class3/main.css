@@ -12,6 +12,7 @@ h1 {
 p {
     font-family: 'Reenie Beanie', cursive;
     text-align: center;
+    font-size: 24px;
 }
 
 img {
@@ -50,28 +51,29 @@ nav.navBar a {
     background-color: silver;
 }
 
+/*section colors*/
 .red {
-    background-color: lightcoral;
+    background-color: rgb(168, 166, 35);
 }
 
 .green {
-    background-color: lightgreen;
+    background-color: black;
 }
 
 .blue {
-    background-color: lightskyblue;
+    background-color: rgb(179, 241, 236);
 }
 
 .yellow {
-    background-color: lightgoldenrodyellow;
+    background-color: black;
 }
 
 .cyan {
-    background-color: darkturquoise;
+    background-color: rgb(168, 166, 35);
 }
 
 .purple {
-    background-color: plum;
+    background-color: black;
 }
 
 .floaterSection {
@@ -137,6 +139,31 @@ nav.navBar a {
         width: 24%;
     }
 
+    /*section colors*/
+    .red {
+        background-color: lightcoral;
+    }
+
+    .green {
+        background-color: lightgreen;
+    }
+
+    .blue {
+        background-color: lightskyblue;
+    }
+
+    .yellow {
+        background-color: lightgoldenrodyellow;
+    }
+
+    .cyan {
+        background-color: darkturquoise;
+    }
+
+    .purple {
+        background-color: plum;
+    }
+
 }
 
 /****************MEDIUM SCREENS************************/
@@ -189,6 +216,31 @@ nav.navBar a {
     nav.navBar li {
         display: inline-block;
         width: 24.6%;
+    }
+
+    /*section colors*/
+    .red {
+        background-color: lightcoral;
+    }
+
+    .green {
+        background-color: lightgreen;
+    }
+
+    .blue {
+        background-color: lightskyblue;
+    }
+
+    .yellow {
+        background-color: lightgoldenrodyellow;
+    }
+
+    .cyan {
+        background-color: darkturquoise;
+    }
+
+    .purple {
+        background-color: plum;
     }
 
     
@@ -248,5 +300,30 @@ nav.navBar a {
     nav.navBar li {
         display: inline-block;
         width: 24%;
+    }
+
+    /*section colors*/
+    .red {
+        background-color: lightcoral;
+    }
+
+    .green {
+        background-color: lightgreen;
+    }
+
+    .blue {
+        background-color: lightskyblue;
+    }
+
+    .yellow {
+        background-color: lightgoldenrodyellow;
+    }
+
+    .cyan {
+        background-color: darkturquoise;
+    }
+
+    .purple {
+        background-color: plum;
     }
 }
