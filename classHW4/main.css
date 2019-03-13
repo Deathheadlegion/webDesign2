@@ -76,8 +76,7 @@ nav a{
 h1 {
     font-size: 45px;
     color: rgb(85, 7, 211);
-    text-shadow: 3px 3px 10px white;
-    /*margin-top: -95px;*/
+    text-decoration: overline;
     text-align: center;
     margin-top: 95px;
 }
@@ -88,7 +87,7 @@ h2 {
 }
 
 .box-container {
-    height: 300px;
+    height: 500px;
     padding: 0px 50px;
     max-width: 375px;
     margin: auto;
@@ -96,8 +95,6 @@ h2 {
 
 .box-container img{
     width: 100%;
-    padding-top: 197px;
-    margin-top: 50px;
 }
 
 p {
