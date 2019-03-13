@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+body {
+    margin: 0px;
+    font-family: 'Cabin', sans-serif;
+    background-color: black;
+}
+
+/* NAVIGATION*/
+nav ul{
+    list-style: none;
+    padding: 0px;
+    display: none;
+    margin: 0px;
+}
+
+.display-toggle {
+    padding: 3px;
+    width: 40px;
+    position: absolute;
+    right: 0px;
+}
+
+.display-toggle .stripe {
+    display: block;
+    margin-bottom: 7px;
+    width: 10px;
+    height: 1px;
+    margin-top: 4px;
+}
+
+.display-toggle .stripe::before {
+    content: '';
+    position: absolute;
+    width: 21px;
+    border-top: 3px solid gray;
+    height: 3px;
+}
+
+.display-toggle:hover + ul {
+    display: block;
+}
+
+nav li {
+    background-color: rgb(85, 7, 211);
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid darkred;
+    font-size: 20px;
+}
+
+nav li:last-child {
+    border-bottom: 0px;
+}
+
+.active-link {
+    font-weight: 900;
+}
+
+nav a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    line-height: 36px;
+}
+
+/*Body*/
+
+.image-container {
+    margin: 0px auto 20px;
+    background-position: center;
+    background-size: cover;
+    height: 259px;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(85, 7, 211);
+    text-shadow: 3px 3px 10px white;
+    /*margin-top: -95px;*/
+    text-align: center;
+    margin-top: 95px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(85, 7, 211);
+}
+
+.box-container {
+    height: 800px;
+    padding: 0px 50px;
+}
+
+.box-container img{
+    width: 100%;
+    /*margin-top: 100px;*/
+    padding-top: 197px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+strong {
+    color: rgb(85, 7, 211);
+}
+
+.box-container3 h2 {
+    margin-top: 20px;
+}
+
+/*products page*/
+
+.title {
+    margin-top: 150px;
+}
+
+.box-container2 {
+    width: 90%;
+    padding: 1px 0px;
+}
+
+.box-container2 img{
+    width: 100%;
+    margin: auto;
+    /*margin-top: 100px;*/
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.box-container3 {
+    width: 40%;
+    margin: auto;
+    /*margin-top: 100px;*/
+    margin-top: 50px;
+    padding: 1px 10px;
+}
+
+.box-container a {
+    color: rgb(85, 7, 211);
+    font-size: 22px;
+}
+
+.box-container3 a {
+    color: rgb(85, 7, 211);
+    font-size: 22px;
+}
+
+/*--------Tablet size and above-----------*/
+@media(min-width: 768px) {
+    nav {
+        background-color: rgb(85, 7, 211);;
+        position: fixed;
+        width: 100%;
+    }
+
+    nav ul{
+        /*margin: 0px;*/
+        display: inline-block;
+        text-align: center;
+        list-style: none;
+   }
+    nav li {
+        display: inline-block;
+        border-bottom: 0px;
+        min-width: 14%;
+        font-size: 18px;
+    }
+
+    .display-toggle {
+        display: none;
+    }
+
+    .image-container {
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 70px;
+        /*margin-top: -140px;*/
+    }
+
+    main {
+        width: 750px;
+        margin: auto;
+        background-color: rgb(247, 217, 217);
+    }
+
+    .box-container {
+        height: 450px;
+        padding: 1px 30px;
+        margin-bottom: 50px;
+        padding-bottom: 350px;
+    }
+    
+    .box-container img{
+        width: 380px;
+        margin-top: 50px;
+        padding: 0px;
+        padding-top: 150px;
+    }
+
+
+}
+
+/*------DESKTOP SIZE AND ABOVE----------*/
+
+@media(min-width: 960px) {
+    main {
+        width: 1125px;
+    }
+
+    nav ul{
+        display: block;
+    }
+
+    .display-toggle {
+        display: none;
+    }
+
+    h1 {
+        font-size: 90px;
+        /*margin-top: -150px;*/
+    }
+    
+    .box-container {
+        height: 500px;
+        padding: 1px 100px;
+        margin-bottom: 270px;
+
+    }
+    
+    .box-container img{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .box-container h2 {
+        padding-top: 100px;
+    }
+    
+}

@@ -1,0 +1,28 @@
+.content {
+    padding: 0px 10px;
+    min-height: 506px;
+    border-bottom: 2px solid darkorchid;
+    position: relative;
+}
+
+.imageContainer {
+    min-height: 200px;
+}
+
+.content img {
+    max-width: 100%;
+}
+.content .absPosition {
+    position: absolute;
+}
+
+#jokerOverlap {
+    top: 30px;
+}
+
+#jokerTitle {
+    top: 200px;
+    right: 30px;
+    color: whitesmoke;
+    text-shadow: 1px 0px 4px #073566;
+}
