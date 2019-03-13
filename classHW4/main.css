@@ -11,7 +11,8 @@ nav ul{
     list-style: none;
     padding: 0px;
     display: none;
-    margin: 0px;
+    margin: auto;
+    width: 100%
 }
 
 .display-toggle {
@@ -101,6 +102,10 @@ h2 {
     height: 200px;
 }
 
+.box-container4 {
+    height: 500px;
+}
+
 p {
     font-size: 20px;
     line-height: 30px;
@@ -135,7 +140,7 @@ strong {
 }
 
 .box-container3 {
-    width: 40%;
+    width: 90%;
     margin: auto;
     /*margin-top: 100px;*/
     margin-top: 50px;
@@ -196,10 +201,12 @@ strong {
         padding: 1px 30px;
         margin-bottom: 50px;
         padding-bottom: 50px;
+        max-width: 384px;
+        margin: auto;
     }
     
     .box-container img{
-        width: 380px;
+        width: 100%;
         margin-top: 50px;
         padding: 0px;
     }
@@ -227,9 +234,10 @@ strong {
     }
     
     .box-container {
-        height: 200px;
-        padding: 1px 100px;
+        height: 300px;
+        padding: 1px 10px;
         margin-bottom: 270px;
+        max-width: 960%;
 
     }
     
