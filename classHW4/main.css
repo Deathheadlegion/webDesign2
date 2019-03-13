@@ -88,7 +88,7 @@ h2 {
 }
 
 .box-container {
-    height: 800px;
+    height: 300px;
     padding: 0px 50px;
     max-width: 375px;
     margin: auto;
@@ -182,7 +182,6 @@ strong {
 
     h1 {
         font-size: 70px;
-        /*margin-top: -140px;*/
     }
 
     main {
@@ -224,11 +223,10 @@ strong {
 
     h1 {
         font-size: 90px;
-        /*margin-top: -150px;*/
     }
     
     .box-container {
-        height: 500px;
+        height: 200px;
         padding: 1px 100px;
         margin-bottom: 270px;
 
@@ -241,7 +239,7 @@ strong {
     }
 
     .box-container h2 {
-        padding-top: 100px;
+        padding-top: 0px;
     }
     
 }
