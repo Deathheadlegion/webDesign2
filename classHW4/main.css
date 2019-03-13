@@ -90,6 +90,8 @@ h2 {
 .box-container {
     height: 800px;
     padding: 0px 50px;
+    max-width: 375px;
+    margin: auto;
 }
 
 .box-container img{
