@@ -1,0 +1,81 @@
+.red {
+    background-color: lightcoral;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.blue {
+    background-color: lightskyblue;
+}
+
+.yellow {
+    background-color: lightgoldenrodyellow;
+}
+
+.cyan {
+    background-color: darkturquoise;
+}
+
+.purple {
+    min-height: 323.250px;
+}
+
+#vertCenter1 #vertCenter2 {
+    position: relative;
+    height: 200px;
+}
+
+#vertCenter1 img {
+    position: absolute;
+    height: 100px; /* because we need to calculate the margin */
+    margin-top: -50px;
+    top: 50%;
+    display: block;
+}
+
+#Lorem1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0px;
+}
+
+#vertHorizCenter h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.main-h1 {
+    font-size: 45px;
+    color: rgb(94, 3, 3);
+    text-shadow: 1px 1px rgb(80, 69, 69);
+}
+
+.main-p {
+    font-size: 24px;
+    color: white;
+}
+
+.mult-lines {
+    display: table;
+}
+
+.mult-lines .main-p{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.mult-lines .main-h1{
+    display: table-cell;
+    vertical-align: middle;
+}
