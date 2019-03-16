@@ -23,67 +23,11 @@
     min-height: 325px;
 }
 
-/*Beginning of centering    -------------------------------------------------------------*/
-.content {
-    position: relative;
-}
 
-#vertCenter1,
-#vertCenter2,
-#vertHorizCenter1 {
-    height: 200px;
-}
 
-#vertHorizCenter2 {
-    height: 400px;
-}
-
-#vertCenter1 img {
-    position: absolute;
-    height: 100px; /* because we need to calculate the margin */
-    margin-top: -50px;
-    top: 50%;
-    display: block;
-}
-
-#Lorem1 {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0px; /* MARGINS affect the centering in this method! */
-}
-
-#vertHorizCenter1 h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    padding: 30px;
-
-    /* Half the width accounting for padding and border */
-    margin-left: -159px;
-    width: 258px;
-    
-    /* Half the height accounting for padding and border */
-    margin-top: -44px;
-    height: 28px;
-    
-    background-color: beige;
-}
-
-#vertHorizCenter2 p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-
-    margin: 0px;
-    text-align: justify;
-}
-/* End of centering  --------------------------------------------------------------*/
-
-.container img {
+.pink img {
     width: 100%;
+    border-radius: 50%;
 }
 
 .main-h1 {
@@ -141,14 +85,21 @@
 position: absolute;
     top: 50%;
     left: 50%;
-
-    /* Half the width accounting for padding and border */
     margin-left: -150px;
     width: 300px;
-    
-    /* Half the height accounting for padding and border */
     margin-top: 50px;
     height: 300px;
-    
-    background-color: beige;
 }
+
+/* Vertical Horizontal for Unknown Block*/
+
+#v-h2 {
+    height: 400px;
+}
+
+#v-h2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
