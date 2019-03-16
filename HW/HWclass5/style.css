@@ -15,11 +15,12 @@
 }
 
 .cyan {
-    background-color: darkturquoise;
+    position: relative;
+    min-height: 325px;
 }
 
 .purple {
-    min-height: 323.250px;
+    min-height: 325px;
 }
 
 #vertCenter1 #vertCenter2 {
@@ -58,24 +59,28 @@
     color: rgb(94, 3, 3);
     text-shadow: 1px 1px rgb(80, 69, 69);
 }
-
+/* Vertical Multiple Lines */
 .main-p {
     font-size: 24px;
     color: white;
 }
 
-.mult-lines {
+.vert-mult-lines {
     display: table;
 }
 
-.mult-lines .main-p{
+.vert-mult-lines .main-p{
     display: table-cell;
     vertical-align: middle;
-    text-align: center;
-    padding: 0px 15px;
+    padding: 0px 51px;
 }
 
-.mult-lines .main-h1{
-    display: table-cell;
-    vertical-align: middle;
+/*Verticle Unknown Block */
+
+.cyan img{
+    width: 75%;
+}
+
+.vert-block {
+    
 }
