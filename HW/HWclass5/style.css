@@ -15,7 +15,6 @@
 }
 
 .cyan {
-    position: relative;
     min-height: 325px;
 }
 
@@ -76,11 +75,23 @@
 }
 
 /*Verticle Unknown Block */
+.relative {
+    height: 285px;
+    margin: 20px 20px 20px 0px;
+    position: relative;
+}
 
 .cyan img{
-    width: 75%;
+    width: 100%;
 }
 
 .vert-block {
-    
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 20px;
+    transform: translateY(-50%);
 }
