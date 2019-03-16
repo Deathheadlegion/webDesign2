@@ -11,14 +11,8 @@
 }
 
 .yellow {
-    position: relative;
-  background: white;
-  height: 200px;
-  width: 60%;
-  margin: 0 auto;
-  padding: 20px;
-  resize: both;
-    
+    background-color: black;
+    min-height: 400px;
 }
 
 .cyan {
@@ -29,9 +23,19 @@
     min-height: 325px;
 }
 
-#vertCenter1 #vertCenter2 {
+/*Beginning of centering    -------------------------------------------------------------*/
+.content {
     position: relative;
+}
+
+#vertCenter1,
+#vertCenter2,
+#vertHorizCenter1 {
     height: 200px;
+}
+
+#vertHorizCenter2 {
+    height: 400px;
 }
 
 #vertCenter1 img {
@@ -46,15 +50,37 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin: 0px;
+    margin: 0px; /* MARGINS affect the centering in this method! */
 }
 
-#vertHorizCenter h2 {
+#vertHorizCenter1 h2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -100px;
+    padding: 30px;
+
+    /* Half the width accounting for padding and border */
+    margin-left: -159px;
+    width: 258px;
+    
+    /* Half the height accounting for padding and border */
+    margin-top: -44px;
+    height: 28px;
+    
+    background-color: beige;
 }
+
+#vertHorizCenter2 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    margin: 0px;
+    text-align: justify;
+}
+/* End of centering  --------------------------------------------------------------*/
 
 .container img {
     width: 100%;
@@ -107,18 +133,22 @@
 /*Verticle Horizontal for known Block */
 
 .relative2 {
-    background: black;
-  color: white;
-  width: 200px;
-  height: 100px;
-  margin: -70px 0 0 -120px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding: 20px;
+    position: relative;
 }
 
-.relative2 img {
-    max-height: 300px;
-    max-width: 300px;
+
+#v-h1 img{
+position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* Half the width accounting for padding and border */
+    margin-left: -150px;
+    width: 300px;
+    
+    /* Half the height accounting for padding and border */
+    margin-top: 50px;
+    height: 300px;
+    
+    background-color: beige;
 }
