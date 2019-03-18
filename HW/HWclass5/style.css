@@ -20,7 +20,7 @@
 }
 
 .purple {
-    min-height: 325px;
+    min-height: 326px;
 }
 
 
@@ -103,3 +103,4 @@ position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0px;
+}
