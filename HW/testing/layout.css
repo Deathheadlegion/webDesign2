@@ -17,7 +17,7 @@
 /*************SMALL SCREENS********************/
 @media (min-width: 375px){
     .container {
-        max-width: 375px;
+        width: 375px;
     }
 
     .small-width-25 {

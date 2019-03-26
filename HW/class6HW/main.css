@@ -1,5 +1,7 @@
 /* Default settings mobile********************************/
 
+
+
 /*navigation bar*/
 nav.navBar {
     background-color: black;
@@ -34,4 +36,39 @@ nav.navBar a {
 
 .activeLink {
     background-color: rgb(128, 134, 136);
+}
+
+/***************************************************************************************************************            beginning of tablet                      ***************************************************************************************************************************************************/
+@media (min-width: 768px) {
+
+    /*navigation bar*/
+    nav.navBar a {
+        font-size: 24px;
+        padding: 0px 65px 0px 65px;
+        text-decoration: none;
+        color: white;
+        line-height: 60px;
+        font-family: 'Open Sans';
+    }
+
+    nav.navBar li {
+        display: inline-block;
+    }
+
+    nav.navBar li {
+        border-bottom: none;
+    }
+
+    nav.navBar li:last-child {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+
+    .activeLink {
+        background-color: none;
+    }
+
+
+
+
 }
