@@ -1,6 +1,6 @@
 .container {
     margin: auto;
-    background-color: lemonchiffon;
+    background-color: rgb(0, 110, 255);
 }
 
 .floater-section {
@@ -48,7 +48,7 @@
 /*************MEDIUM SCREENS*******************/
 @media (min-width: 768px){
     .container {
-        width: 760px;
+        width: 768px;
     }
 
     .med-width-25 {
