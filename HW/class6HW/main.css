@@ -1,6 +1,18 @@
 /* Default settings mobile********************************/
+body{
+    margin: 0px;
+}
+.container {
+    max-width: 375px;
+    min-width: 375px;
+    height: 1750px;
+}
 
-
+.container1 {
+    max-width: 375px;
+    min-width: 375px;
+    height: 650px;
+}
 
 /*navigation bar*/
 nav.navBar {
@@ -40,6 +52,12 @@ nav.navBar a {
 
 /***************************************************************************************************************            beginning of tablet                      ***************************************************************************************************************************************************/
 @media (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        min-width: 768px;
+        height: 1750px;
+    }
 
     /*navigation bar*/
     nav.navBar a {
