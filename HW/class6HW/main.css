@@ -27,7 +27,7 @@ img {
 .container {
     max-width: 375px;
     min-width: 375px;
-    height: 2000px;
+    height: 2300px;
 }
 
 .container1 {
@@ -39,7 +39,7 @@ img {
 .container2 {
     max-width: 375px;
     min-width: 375px;
-    height: 2850px;
+    height: 3150px;
 }
 
 /*navigation bar*/
@@ -84,7 +84,7 @@ nav.navBar a {
     .container {
         max-width: 768px;
         min-width: 768px;
-        height: 1400px;
+        height: 2200px;
     }
 
     .container1 {
@@ -96,7 +96,7 @@ nav.navBar a {
     .container2 {
         max-width: 768px;
         min-width: 768px;
-        height: 2000px;
+        height: 2600px;
     }
 
     /*navigation bar*/
@@ -137,7 +137,7 @@ nav.navBar a {
     .container {
         max-width: 992px;
         min-width: 992px;
-        height: 1400px;
+        height: 2300px;
     }
 
     .container1 {
@@ -149,7 +149,7 @@ nav.navBar a {
     .container2 {
         max-width: 992px;
         min-width: 992px;
-        height: 1100px;
+        height: 2000px;
     }
 
 
