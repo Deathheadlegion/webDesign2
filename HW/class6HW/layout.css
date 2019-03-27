@@ -1,11 +1,16 @@
 .container {
     margin: auto;
-    background-color: green;
+    background-color: rgb(128, 134, 136);
 }
 
 .container1 {
     margin: auto;
-    background-color: green;
+    background-color: rgb(128, 134, 136);
+}
+
+.container2 {
+    margin: auto;
+    background-color: rgb(128, 134, 136);
 }
 
 .floater-section {
@@ -85,7 +90,7 @@
 /*************LARGE SCREENS*******************/
 @media (min-width: 992px){
     .container {
-        width: 960px;
+        width: 992px;
     }
 
     .large-width-25 {

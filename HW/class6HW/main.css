@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans');
 /* Default settings mobile********************************/
 body{
     margin: 0px;
 }
+
+h1 {
+    font-family: 'Cabin';
+    color: white;
+}
+
+p {
+    color: white;
+}
+
 .container {
     max-width: 375px;
     min-width: 375px;
@@ -12,6 +23,12 @@ body{
     max-width: 375px;
     min-width: 375px;
     height: 650px;
+}
+
+.container2 {
+    max-width: 375px;
+    min-width: 375px;
+    height: 2850px;
 }
 
 /*navigation bar*/
@@ -56,7 +73,19 @@ nav.navBar a {
     .container {
         max-width: 768px;
         min-width: 768px;
-        height: 1750px;
+        height: 1000px;
+    }
+
+    .container1 {
+        max-width: 768px;
+        min-width: 768px;
+        height: 600px;
+    }
+
+    .container2 {
+        max-width: 768px;
+        min-width: 768px;
+        height: 2000px;
     }
 
     /*navigation bar*/
@@ -87,6 +116,24 @@ nav.navBar a {
     }
 
 
+
+
+}
+
+/*****************************************************************************************************************            beginning of desktop   ***************************************************************************************************/
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 992px;
+        min-width: 992px;
+        height: 1000px;
+    }
+
+    .container1 {
+        max-width: 992px;
+        min-width: 992px;
+        height: 600px;
+    }
 
 
 }
