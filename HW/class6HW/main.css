@@ -29,7 +29,13 @@ p {
     font-family: 'Open Sans';
     font-size: 12px;
     text-align: center;
+    color: black;
+    background-color: rgb(204, 180, 84);
+    padding: 50px;
+    font-weight: 600;
+    margin: 0px;
 }
+
 
 .images {
 text-align: center;
@@ -54,7 +60,7 @@ img {
 .container {
     max-width: 375px;
     min-width: 375px;
-    height: 2300px;
+    height: 1489px;
 }
 
 .container1 {

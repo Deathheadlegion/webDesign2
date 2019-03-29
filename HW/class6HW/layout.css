@@ -20,6 +20,13 @@
     /*margin-bottom: 30px;*/
 }
 
+.floater-section-bottom {
+    float: left;
+    width: 100%;
+    min-height: 0px;
+    /*margin-bottom: 30px;*/
+}
+
 .clearfix {
     clear: both;
 }
