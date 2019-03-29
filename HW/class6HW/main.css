@@ -20,6 +20,11 @@ text-align: center;
 margin: 10px;
 }
 
+.titleImg {
+    text-align: center;
+    margin: auto;
+}
+
 img {
     width: 100%;
 }
