@@ -8,18 +8,27 @@ body{
 h1 {
     font-family: 'Cinzel', serif;
     font-size: 36px;
-    color: white;
+    color: rgb(204, 180, 84);
     text-align: center;
 }
 
 p {
+    font-family: 'Open Sans';
     color: white;
-    text-align: center;
+    text-align: left;
+    padding: 0px 20px;
 }
 
 .slogan {
     font-family: 'Open Sans';
     font-size: 24px;
+    text-align: center;
+}
+
+.rights {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    text-align: center;
 }
 
 .images {
