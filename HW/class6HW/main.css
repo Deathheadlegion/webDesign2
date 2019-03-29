@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Cinzel');
 /* Default settings mobile********************************/
 body{
     margin: 0px;
+    background-color: #676666;
 }
 
 h1 {
-    font-family: 'Cabin';
+    font-family: 'Cinzel', serif;
+    font-size: 36px;
     color: white;
     text-align: center;
 }
@@ -17,7 +19,7 @@ p {
 
 .images {
 text-align: center;
-margin: 10px;
+margin: auto;
 }
 
 .titleImg {
@@ -63,7 +65,7 @@ nav.navBar ul {
 }
 
 nav.navBar li {
-    border-bottom: 2px solid rgb(219, 219, 219);
+    border-bottom: 2px solid rgb(204, 180, 84);
 }
 
 nav.navBar li:last-child {
@@ -80,7 +82,7 @@ nav.navBar a {
 }
 
 .activeLink {
-    background-color: rgb(128, 134, 136);
+    background-color: rgb(204, 180, 84);
 }
 
 /***************************************************************************************************************            beginning of tablet                      ***************************************************************************************************************************************************/
@@ -131,7 +133,12 @@ nav.navBar a {
         background-color: none;
     }
 
+    /*end of navigation bar*/
 
+    .images {
+        text-align: center;
+        margin: 10px;
+    }
 
 
 }
