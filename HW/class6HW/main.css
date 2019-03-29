@@ -17,6 +17,11 @@ p {
     text-align: center;
 }
 
+.slogan {
+    font-family: 'Open Sans';
+    font-size: 24px;
+}
+
 .images {
 text-align: center;
 margin: auto;
@@ -26,6 +31,12 @@ margin: auto;
     text-align: center;
     margin: auto;
 }
+
+.titleImg img{
+    text-align: center;
+    margin: auto;
+}
+
 
 img {
     width: 100%;
