@@ -365,6 +365,12 @@ nav.navBar a {
         height: 2360px;
     }
 
+    .container3 {
+        max-width: 992px;
+        min-width: 992px;
+        height: 2542px;
+    }
+
     /*navigation bar*/
 
     .navFix {
