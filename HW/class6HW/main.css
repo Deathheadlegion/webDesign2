@@ -19,8 +19,12 @@ h1 {
     color: rgb(204, 180, 84);
     text-align: center;
     margin: 0px 0px 0px 0px;
-    padding: 50px 0px 50px 0px;
-    text-decoration-line: overline;
+    padding: 50px 0px 60px 0px;
+    text-decoration-line: underline;
+}
+
+h2 {
+    color: white;
 }
 
 p {
@@ -32,10 +36,66 @@ p {
     margin-bottom: 100px;
 }
 
+.imageHeader1 {
+    padding: 50px 0px 0px 0px;
+}
+
+.list {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.list1 {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin: 0px 0px 90px 0px;
+
+}
+
+.story {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin-bottom: 0px;
+
+}
+
+.listMain {
+    font-family: 'Open Sans';
+    color: rgb(204, 180, 84);
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+    text-decoration: underline;
+}
+
+.listMain1 {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+
 .slogan {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 35px;
 }
 
 .rights {
@@ -73,7 +133,7 @@ img {
 .container {
     max-width: 375px;
     min-width: 375px;
-    height: 1487px;
+    height: 1690px;
 }
 
 .container1 {
@@ -85,7 +145,7 @@ img {
 .container2 {
     max-width: 375px;
     min-width: 375px;
-    height: 3150px;
+    height: 1690px;
 }
 
 /*navigation bar*/
