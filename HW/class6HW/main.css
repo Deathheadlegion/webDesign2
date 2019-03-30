@@ -111,6 +111,15 @@ nav.navBar a {
 .activeLink {
     background-color: rgb(204, 180, 84);
 }
+/*end of navigation bar*/
+
+.vis1 {
+    display: block;
+}
+
+.vis5 {
+    display: none;
+}
 
 /***************************************************************************************************************            beginning of tablet                      ***************************************************************************************************************************************************/
 @media (min-width: 768px) {
@@ -188,7 +197,15 @@ nav.navBar a {
 
     .images {
         text-align: center;
-        margin: 10px;
+        /*margin: 10px;*/
+    }
+
+    .img1 {
+        margin: 0px 10px 0px 0px;
+    }
+
+    .img2 {
+        margin: 0px 0px 0px 10px;
     }
 
 
@@ -200,7 +217,7 @@ nav.navBar a {
     .container {
         max-width: 992px;
         min-width: 992px;
-        height: 2300px;
+        height: 1220px;
     }
 
     .container1 {
@@ -215,5 +232,54 @@ nav.navBar a {
         height: 2000px;
     }
 
+    /*navigation bar*/
 
+    .navFix {
+        min-height: 130px;
+    }
+
+    nav.navBar {
+        background-color: black;
+        width: 100%;
+        padding: 35px 0px;
+        margin: 0px 0px 25px 0px;
+        position: fixed;
+        z-index: 10;
+    }
+
+    nav.navBar a {
+        font-size: 24px;
+        padding: 0px 65px 0px 65px;
+        text-decoration: none;
+        color: white;
+        line-height: 60px;
+        font-family: 'Open Sans';
+    }
+
+    nav.navBar li {
+        display: inline-block;
+    }
+
+    nav.navBar li {
+        border-bottom: none;
+    }
+
+    nav.navBar li:last-child {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+
+    .activeLink {
+        background-color: none;
+    }
+
+    /*end of navigation bar*/
+
+    .vis1 {
+        display: none;
+    }
+    
+    .vis5 {
+        display: block;
+    }
 }
