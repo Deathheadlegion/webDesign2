@@ -29,6 +29,7 @@ p {
     text-align: left;
     padding: 0px 20px;
     font-size: 16px;
+    margin-bottom: 100px;
 }
 
 .slogan {
@@ -151,7 +152,7 @@ nav.navBar a {
     .container2 {
         max-width: 768px;
         min-width: 768px;
-        height: 4210px;
+        height: 2360px;
     }
 
     /*navigation bar*/
@@ -204,7 +205,7 @@ nav.navBar a {
     }
 
     .rights {
-        margin: 100px 0px 0px 0px;
+        margin: 0px;
     }
 
     .images {
@@ -265,7 +266,7 @@ nav.navBar a {
     .container2 {
         max-width: 992px;
         min-width: 992px;
-        height: 2460px;
+        height: 2360px;
     }
 
     /*navigation bar*/
