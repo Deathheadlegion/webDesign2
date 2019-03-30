@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Kodchasan|Open+Sans+Condensed:300|Cinzel');
+
+/*how to enter fonts
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Kodchasan', sans-serif;
+*/
+
 /* Default settings mobile********************************/
 body{
     margin: 0px;
@@ -6,10 +14,12 @@ body{
 }
 
 h1 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Kodchasan', sans-serif;
     font-size: 36px;
     color: rgb(204, 180, 84);
     text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 p {
@@ -21,8 +31,8 @@ p {
 }
 
 .slogan {
-    font-family: 'Open Sans';
-    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -61,7 +71,7 @@ img {
 .container {
     max-width: 375px;
     min-width: 375px;
-    height: 1489px;
+    height: 1487px;
 }
 
 .container1 {
@@ -96,7 +106,7 @@ nav.navBar li {
 }
 
 nav.navBar li:last-child {
-    border-bottom: none;
+    /*border-bottom: none;*/
     padding-bottom: 5px;
 }
 
@@ -187,8 +197,8 @@ nav.navBar a {
     /*end of navigation bar*/
 
     .slogan {
-        font-family: 'Open Sans';
-        font-size: 40px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 60px;
         text-align: center;
     }
 
