@@ -151,7 +151,7 @@ nav.navBar a {
     .container2 {
         max-width: 768px;
         min-width: 768px;
-        height: 4217px;
+        height: 4210px;
     }
 
     /*navigation bar*/
@@ -212,6 +212,7 @@ nav.navBar a {
         /*margin: 10px;*/
     }
 
+    /*adjustment to spacing*/
     .img1 {
         margin: 0px 3px 0px 0px;
     }
@@ -220,6 +221,29 @@ nav.navBar a {
         margin: 0px 0px 0px 3px;
     }
 
+    .images4 {
+        margin: 0px 2px 0px 0px;
+    }
+
+    .images5 {
+        margin: 0px 0px 0px 2px;
+    }
+
+    .images7 {
+        margin: 0px 2px 0px 0px;
+    }
+
+    .images8 {
+        margin: 0px 0px 0px 2px;
+    }
+
+    .images10 {
+        margin: 0px 2px 0px 0px;
+    }
+
+    .images11 {
+        margin: 0px 0px 0px 2px;
+    }
 
 }
 
@@ -241,7 +265,7 @@ nav.navBar a {
     .container2 {
         max-width: 992px;
         min-width: 992px;
-        height: 2000px;
+        height: 2460px;
     }
 
     /*navigation bar*/
@@ -297,5 +321,29 @@ nav.navBar a {
     
     .vis5 {
         display: block;
+    }
+
+    .images4 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images5 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images7 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images8 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images10 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images11 {
+        margin: 0px 0px 0px 0px;
     }
 }
