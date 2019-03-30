@@ -148,6 +148,12 @@ img {
     height: 1690px;
 }
 
+.container3 {
+    max-width: 375px;
+    min-width: 375px;
+    height: 1971px;
+}
+
 /*navigation bar*/
 nav.navBar {
     background-color: black;
@@ -194,6 +200,28 @@ nav.navBar a {
     display: none;
 }
 
+.relative {
+    position: relative;
+    height: 250px;
+}
+
+.relative p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.contactLink {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(204, 180, 84);
+    padding: 10px;
+    border-radius: 8%;
+    box-shadow: 0px 4px 1px white;
+}
+
 /***************************************************************************************************************            beginning of tablet                      ***************************************************************************************************************************************************/
 @media (min-width: 768px) {
 
@@ -213,6 +241,12 @@ nav.navBar a {
         max-width: 768px;
         min-width: 768px;
         height: 2360px;
+    }
+
+    .container3 {
+        max-width: 768px;
+        min-width: 768px;
+        height: 1971px;
     }
 
     /*navigation bar*/
