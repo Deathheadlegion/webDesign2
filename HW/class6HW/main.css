@@ -19,8 +19,8 @@ h1 {
     color: rgb(204, 180, 84);
     text-align: center;
     margin: 0px 0px 0px 0px;
-    padding: 10px 0px 10px 0px;
-    text-shadow: 0px 1px 1px gold;
+    padding: 50px 0px 50px 0px;
+    text-decoration-line: overline;
 }
 
 p {
@@ -92,7 +92,7 @@ nav.navBar {
     background-color: black;
     width: 100%;
     padding: 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 35px 0px;
 }
 
 nav.navBar ul {
@@ -107,7 +107,7 @@ nav.navBar li {
 }
 
 nav.navBar li:last-child {
-    /*border-bottom: none;*/
+    border-bottom: none;
     padding-bottom: 5px;
 }
 
@@ -151,7 +151,7 @@ nav.navBar a {
     .container2 {
         max-width: 768px;
         min-width: 768px;
-        height: 2600px;
+        height: 4217px;
     }
 
     /*navigation bar*/
@@ -213,11 +213,11 @@ nav.navBar a {
     }
 
     .img1 {
-        margin: 0px 10px 0px 0px;
+        margin: 0px 3px 0px 0px;
     }
 
     .img2 {
-        margin: 0px 0px 0px 10px;
+        margin: 0px 0px 0px 3px;
     }
 
 
