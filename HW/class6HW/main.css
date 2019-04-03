@@ -20,7 +20,6 @@ h1 {
     text-align: center;
     margin: 0px 0px 0px 0px;
     padding: 50px 0px 60px 0px;
-    text-decoration-line: underline;
     text-shadow: 0px 1px 2px white;
 }
 
@@ -63,7 +62,7 @@ p {
 
 .list2 {
     font-family: 'Open Sans';
-    color: red;
+    color: #ccb454;
     text-align: center;
     padding: 0px 20px;
     font-size: 16px;
@@ -88,7 +87,6 @@ p {
     padding: 0px 20px;
     font-size: 30px;
     margin: 0px 0px 20px 0px;
-    text-decoration: underline;
     text-shadow: 0px 1px 2px white;
 }
 
@@ -99,7 +97,6 @@ p {
     padding: 0px 20px;
     font-size: 20px;
     margin-bottom: 0px;
-    text-decoration: underline;
 }
 
 .listMain2 {
@@ -109,7 +106,6 @@ p {
     padding: 0px 20px;
     font-size: 30px;
     margin: 70px 0px 20px 0px;
-    text-decoration: underline;
     text-shadow: 0px 1px 2px white;
 }
 
@@ -137,7 +133,7 @@ text-align: center;
 margin: auto;
 }
 
-.titleImg {
+.titleImg { 
     text-align: center;
     margin: auto;
 }
@@ -174,6 +170,8 @@ img {
     max-width: 375px;
     min-width: 375px;
     height: 1971px;
+    background-color: black;
+    margin: auto;
 }
 
 /*navigation bar*/
@@ -241,10 +239,85 @@ nav.navBar a {
     font-weight: 600;
     background-color: rgb(204, 180, 84);
     padding: 10px;
-    border-radius: 8%;
-    box-shadow: 0px 4px 1px #6a6c6e;
+    /*box-shadow: 0px 4px 1px #6a6c6e;*/
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    border-bottom: 2px solid #9999A1;
+    border-right: 2px solid #9999A1;
+}
+
+/*form section*/
+
+.first_form {
+    width: 550px;
+    margin: auto;
+    background-color: #FFF;
+    /*padding: 30px;*/
+}
+
+.contactPlease {
+    font-family: 'Open Sans';
+    color: black;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.info {
+    align-content: center;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Open Sans';
+    margin: 60px 0px 0px 0px;
+}
+
+#subject {
+    height: 150px;
+    width: 100%;
+    display: block;
+    /*padding: 0px 10px;*/
+    border: 1px solid #e3e3e3;
+    margin-top: 15px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    max-width: 355px;
+    margin: 15px auto;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    /*padding: 0px 10px;*/
+    border: 1px solid #e3e3e3;
+    max-width: 355px;
+    margin: 15px auto;
+}
+
+.form_submit {
+    float: right;
+    /*margin-right: -21px;*/
+    margin-top: 10px;
+    padding: 12px 35px;
+    color: black;
+    background-color: #ccb454;
+    border-bottom: 2px solid #9999A1;
+    border-right: 2px solid #9999A1;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0% 33% 4% 0%;
     font-family: 'Open Sans';
 }
+
+
+
+
 
 /***************************************************************************************************************            beginning of tablet                      ***************************************************************************************************************************************************/
 @media (min-width: 768px) {
@@ -252,7 +325,7 @@ nav.navBar a {
     .container {
         max-width: 768px;
         min-width: 768px;
-        height: 1243px;
+        height: 1575px;
     }
 
     .container1 {
@@ -264,13 +337,13 @@ nav.navBar a {
     .container2 {
         max-width: 768px;
         min-width: 768px;
-        height: 2360px;
+        height: 4420px;
     }
 
     .container3 {
         max-width: 768px;
         min-width: 768px;
-        height: 2445px;
+        height: 2744px;
     }
 
     /*navigation bar*/

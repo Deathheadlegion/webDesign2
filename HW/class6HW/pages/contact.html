@@ -49,41 +49,59 @@
         </div>
 
         <div class="floater-section small-width-100 med-width-100">
+            <p class="list">
+                2510 Main Street<br>
+                Suite C<br>
+                Santa Monica, CA 90405<br>
+                (310)581-4844</p>
+            
+        </div>
+
+        <div class="floater-section small-width-100 med-width-100"
             <h2 class="listMain2">Hours</h2>
             <p class="list"><font color="lightblue">Open:&nbsp</font>Wednesday-Sunday</p>
             <p class="list"><font color="lightblue">Hours:&nbsp</font>Wednesday-Saturday 11:00am-6:00pm<br>Sunday 11:00am-5:00pm</p>
-            <p class="list2">Closed Monday and Tuesday</p>
+            <p class="list2" id="closed">Closed Monday and Tuesday</p>
         </div>
 
         <div class="floater-section small-width-100 med-width-100">
-            <h2 class="listMain">Prices</h2>
-            <h2 class="listMain1">Weekend Metals and Weekend Wax</h2>
-            <p class="list1">Saturday and Sunday 11:00 am to 6:00 pm <br>$380.00 plus $50.00 materials fee</p>
+            <img src="../images/map.jpg" alt="map of location">
         </div>
 
-        <div class="floater-section small-width-100 med-width-100">
-            <h2 class="listMain1">Sunday Soft Wax</h2>
-            <p class="list1">Sunday 11:00 am to 6:00 pm <br>$250.00 plus $50.00 materials fee</p>
-        </div>
+        <div class="floater-section small-width-100 med-width-100 first_form">
+            <div class="form1">        
+                <div class="form">
+                    <label for="shipping"></label>
 
-        <div class="floater-section small-width-100 med-width-100">
-            <h2 class="listMain1">Evening Workshops</h2>
-            <p class="list1">Thursday 6:00 pm to 10:00 pm <br>$225.00 plus $50.00 materials fee <br>Practical Gemology: $225.00 (no materials fee) </p>
-        </div>
+                    <div id="info1" class="info">
+                        <form action="create-account.php" method="POST"></form>
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" name="fullname" class="form-input" id="fullName">
+                    </div>
 
-        <div class="floater-section small-width-100 med-width-100">
-            <div class="images">
-                <h2 class="listMain">Calendar</h2>
-                <img src="../images/calendar.png" alt="calendar">
+                    <div id="info2" class="info">
+                        <form action="create-account.php" method="POST"></form>
+                        <label for="emailAdress">Email Address:</label>
+                        <input type="text" name="email" class="form-input" id="emailAdress">
+                    </div>
+
+                    <div class="info">
+                        <form action="create-account.php" method="POST"></form>
+                        <label for="subjectInfo">Subject:</label>
+                        <input type="text" name="subject" class="form-input" id="subjectInfo">
+                    </div>
+
+                    <div id="message1" class="info">
+                        <form action="create-account.php" method="POST"></form>
+                        <label for="subject">Message:</label>
+                        <textarea name="subject" id="subject"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit" class="form_submit">Send</button>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="floater-section small-width-100 med-width-100">
-            <div class="relative">
-                <p class="contactMe"><a class="contactLink" href="http://www.pmajewelry.com/index.html">Contact Us</a>
-                </p>
-            </div>
-        </div>
+        </div>  
 
         <div class="floater-section-bottom small-width-100 med-width-100">
                 <p class="rights">© 2018 Precious Metal Arts. All Rights Reserverd.</p>
