@@ -158,6 +158,8 @@ img {
     max-width: 375px;
     min-width: 375px;
     height: 750px;
+    background-color: black;
+    margin: auto;
 }
 
 .container2 {
