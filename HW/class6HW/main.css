@@ -439,6 +439,21 @@ nav.navBar a {
         margin: 0px 0px 0px 2px;
     }
 
+    .form_submit {
+        float: right;
+        /*margin-right: -21px;*/
+        margin-top: 10px;
+        padding: 12px 35px;
+        color: black;
+        background-color: #ccb454;
+        border-bottom: 2px solid #9999A1;
+        border-right: 2px solid #9999A1;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 3% 42% 4% 0%;
+        font-family: 'Open Sans';
+    }
+
 }
 
 /*****************************************************************************************************************            beginning of desktop   ***************************************************************************************************/
@@ -453,7 +468,7 @@ nav.navBar a {
     .container1 {
         max-width: 992px;
         min-width: 992px;
-        height: 1000px;
+        height: 2700px;
     }
     
     .container2 {
@@ -556,5 +571,20 @@ nav.navBar a {
 
     .images11 {
         margin: 0px 0px 0px 0px;
+    }
+
+    .form_submit {
+        float: right;
+        /*margin-right: -21px;*/
+        margin-top: 10px;
+        padding: 12px 35px;
+        color: black;
+        background-color: #ccb454;
+        border-bottom: 2px solid #9999A1;
+        border-right: 2px solid #9999A1;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 3% 44% 5% 0%;
+        font-family: 'Open Sans';
     }
 }
