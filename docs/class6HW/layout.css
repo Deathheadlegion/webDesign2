@@ -1,13 +1,30 @@
 .container {
     margin: auto;
-    background-color: lemonchiffon;
+    background-color: black;
+}
+
+.container1 {
+    margin: auto;
+    background-color: black;
+}
+
+.container2 {
+    margin: auto;
+    background-color: black;
 }
 
 .floater-section {
     float: left;
     width: 100%;
     min-height: 200px;
-    margin-bottom: 20px;
+    /*margin-bottom: 30px;*/
+}
+
+.floater-section-bottom {
+    float: left;
+    width: 100%;
+    min-height: 0px;
+    /*margin-bottom: 30px;*/
 }
 
 .clearfix {
@@ -15,9 +32,10 @@
 }
 
 /*************SMALL SCREENS********************/
-@media (min-width: 450px){
+@media (min-width: 375px){
+    
     .container {
-        width: 440px;
+        max-width: 375px;
     }
 
     .small-width-25 {
@@ -48,7 +66,7 @@
 /*************MEDIUM SCREENS*******************/
 @media (min-width: 768px){
     .container {
-        width: 760px;
+        width: 768px;
     }
 
     .med-width-25 {
@@ -79,7 +97,7 @@
 /*************LARGE SCREENS*******************/
 @media (min-width: 992px){
     .container {
-        width: 960px;
+        width: 992px;
     }
 
     .large-width-25 {

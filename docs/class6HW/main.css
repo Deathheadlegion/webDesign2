@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Kodchasan|Open+Sans+Condensed:300|Cinzel');
+
+/*how to enter fonts
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Kodchasan', sans-serif;
+*/
+
+/* Default settings mobile********************************/
+body{
+    margin: 0px;
+    background-color: #676666;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 52px;
+    color: rgb(204, 180, 84);
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 60px 0px;
+    text-shadow: 0px 1px 2px white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.imageHeader1 {
+    padding: 50px 0px 0px 0px;
+}
+
+.list {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.list1 {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin: 0px 0px 90px 0px;
+
+}
+
+.list2 {
+    font-family: 'Open Sans';
+    color: #ccb454;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin: 0px 0px 90px 0px;
+
+}
+
+.story {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin-bottom: 0px;
+
+}
+
+.listMain {
+    font-family: 'Open Sans';
+    color: rgb(103, 102, 102);
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+    text-shadow: 0px 1px 2px white;
+}
+
+.listMain1 {
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.listMain2 {
+    font-family: 'Open Sans';
+    color: rgb(103, 102, 102);
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 30px;
+    margin: 70px 0px 20px 0px;
+    text-shadow: 0px 1px 2px white;
+}
+
+.slogan {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.rights {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    background-color: rgb(204, 180, 84);
+    padding: 50px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+
+.images {
+text-align: center;
+margin: auto;
+}
+
+.titleImg { 
+    text-align: center;
+    margin: auto;
+}
+
+.titleImg img{
+    text-align: center;
+    margin: auto;
+}
+
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 375px;
+    min-width: 375px;
+    height: 1690px;
+}
+
+.container1 {
+    max-width: 375px;
+    min-width: 375px;
+    height: 750px;
+    background-color: black;
+    margin: auto;
+}
+
+.container2 {
+    max-width: 375px;
+    min-width: 375px;
+    height: 1690px;
+}
+
+.container3 {
+    max-width: 375px;
+    min-width: 375px;
+    height: 1971px;
+    background-color: black;
+    margin: auto;
+}
+
+/*navigation bar*/
+nav.navBar {
+    background-color: black;
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 35px 0px;
+}
+
+nav.navBar ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+nav.navBar li {
+    border-bottom: 2px solid rgb(204, 180, 84);
+}
+
+nav.navBar li:last-child {
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+
+nav.navBar a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    line-height: 36px;
+    font-family: 'Open Sans';
+}
+
+.activeLink {
+    background-color: rgb(204, 180, 84);
+    text-shadow: 0px 1px 0px black;
+}
+/*end of navigation bar*/
+
+.vis1 {
+    display: block;
+}
+
+.vis5 {
+    display: none;
+}
+
+.relative {
+    position: relative;
+    height: 250px;
+}
+
+.relative p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.contactLink {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    background-color: rgb(204, 180, 84);
+    padding: 10px;
+    /*box-shadow: 0px 4px 1px #6a6c6e;*/
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    border-bottom: 2px solid #9999A1;
+    border-right: 2px solid #9999A1;
+}
+
+/*form section*/
+
+.first_form {
+    width: 550px;
+    margin: auto;
+    background-color: #FFF;
+    /*padding: 30px;*/
+}
+
+.contactPlease {
+    font-family: 'Open Sans';
+    color: black;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.info {
+    align-content: center;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Open Sans';
+    margin: 60px 0px 0px 0px;
+}
+
+#subject {
+    height: 150px;
+    width: 100%;
+    display: block;
+    /*padding: 0px 10px;*/
+    border: 1px solid #e3e3e3;
+    margin-top: 15px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    max-width: 355px;
+    margin: 15px auto;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    /*padding: 0px 10px;*/
+    border: 1px solid #e3e3e3;
+    max-width: 355px;
+    margin: 15px auto;
+}
+
+.form_submit {
+    float: right;
+    /*margin-right: -21px;*/
+    margin-top: 10px;
+    padding: 12px 35px;
+    color: black;
+    background-color: #ccb454;
+    border-bottom: 2px solid #9999A1;
+    border-right: 2px solid #9999A1;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0% 33% 4% 0%;
+    font-family: 'Open Sans';
+}
+
+
+
+
+
+/***************************************************************************************************************            beginning of tablet                      ***************************************************************************************************************************************************/
+@media (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        min-width: 768px;
+        height: 1575px;
+    }
+
+    .container1 {
+        max-width: 768px;
+        min-width: 768px;
+        height: 2822px;
+    }
+
+    .container2 {
+        max-width: 768px;
+        min-width: 768px;
+        height: 4420px;
+    }
+
+    .container3 {
+        max-width: 768px;
+        min-width: 768px;
+        height: 2744px;
+    }
+
+    /*navigation bar*/
+
+    .navFix {
+        min-height: 130px;
+    }
+
+    nav.navBar {
+        background-color: black;
+        width: 100%;
+        padding: 35px 0px;
+        margin: 0px 0px 25px 0px;
+        position: fixed;
+        z-index: 10;
+    }
+
+    nav.navBar a {
+        font-size: 24px;
+        padding: 0px 55px 0px 55px;
+        text-decoration: none;
+        color: white;
+        line-height: 60px;
+        font-family: 'Open Sans';
+    }
+
+    nav.navBar li {
+        display: inline-block;
+    }
+
+    nav.navBar li {
+        border-bottom: none;
+    }
+
+    nav.navBar li:last-child {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+
+    .activeLink {
+        background-color: none;
+    }
+
+    /*end of navigation bar*/
+
+    .slogan {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .rights {
+        margin: 0px;
+    }
+
+    .images {
+        text-align: center;
+        /*margin: 10px;*/
+    }
+
+    /*adjustment to spacing*/
+    .img1 {
+        margin: 0px 3px 0px 0px;
+    }
+
+    .img2 {
+        margin: 0px 0px 0px 3px;
+    }
+
+    .images4 {
+        margin: 0px 2px 0px 0px;
+    }
+
+    .images5 {
+        margin: 0px 0px 0px 2px;
+    }
+
+    .images7 {
+        margin: 0px 2px 0px 0px;
+    }
+
+    .images8 {
+        margin: 0px 0px 0px 2px;
+    }
+
+    .images10 {
+        margin: 0px 2px 0px 0px;
+    }
+
+    .images11 {
+        margin: 0px 0px 0px 2px;
+    }
+
+    .form_submit {
+        float: right;
+        /*margin-right: -21px;*/
+        margin-top: 10px;
+        padding: 12px 35px;
+        color: black;
+        background-color: #ccb454;
+        border-bottom: 2px solid #9999A1;
+        border-right: 2px solid #9999A1;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 3% 42% 4% 0%;
+        font-family: 'Open Sans';
+    }
+
+}
+
+/*****************************************************************************************************************            beginning of desktop   ***************************************************************************************************/
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 992px;
+        min-width: 992px;
+        height: 1220px;
+    }
+
+    .container1 {
+        max-width: 992px;
+        min-width: 992px;
+        height: 2700px;
+    }
+    
+    .container2 {
+        max-width: 992px;
+        min-width: 992px;
+        height: 2360px;
+    }
+
+    .container3 {
+        max-width: 992px;
+        min-width: 992px;
+        height: 2542px;
+    }
+
+    /*navigation bar*/
+
+    .navFix {
+        min-height: 130px;
+    }
+
+    nav.navBar {
+        background-color: black;
+        width: 100%;
+        padding: 35px 0px;
+        margin: 0px 0px 25px 0px;
+        position: fixed;
+        z-index: 10;
+    }
+
+    nav.navBar a {
+        font-size: 24px;
+        padding: 0px 65px 0px 65px;
+        text-decoration: none;
+        color: white;
+        line-height: 60px;
+        font-family: 'Open Sans';
+    }
+
+    nav.navBar li {
+        display: inline-block;
+    }
+
+    nav.navBar li {
+        border-bottom: none;
+    }
+
+    nav.navBar li:last-child {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+
+    .activeLink {
+        background-color: none;
+    }
+
+    li a:hover {
+        font-weight: 900;
+    }
+    
+    /*end of navigation bar*/
+
+    .contactLink {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        background-color: rgb(204, 180, 84);
+        padding: 10px;
+        border-radius: 8%;
+        box-shadow: 0px 4px 1px white;
+        font-family: 'Open Sans';
+    }
+
+    .vis1 {
+        display: none;
+    }
+    
+    .vis5 {
+        display: block;
+    }
+
+    .images4 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images5 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images7 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images8 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images10 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .images11 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .form_submit {
+        float: right;
+        /*margin-right: -21px;*/
+        margin-top: 10px;
+        padding: 12px 35px;
+        color: black;
+        background-color: #ccb454;
+        border-bottom: 2px solid #9999A1;
+        border-right: 2px solid #9999A1;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 3% 44% 5% 0%;
+        font-family: 'Open Sans';
+    }
+}
