@@ -7,10 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="main.js"></script>-->
+    <style>
+        .hulk{
+            background-image: url(https://cdn-images-1.medium.com/max/1600/1*sR7-iqYeA7Q4PsNzcOENKA.png);
+        }
+    </style>
 </head>
 <body id="mainBody">
     <h1>Hello, World!</h1>
-    <div>I am the incredible<h1 id="id1">HULK</h1></div>
+    <h1 style="color red">I am the incredible<h1 id="id1">HULK</h1></h1>
 
     <button type="button" 
     onclick="document.getElementById('id1').style.color = 'green', document.getElementById('id1').style.fontSize = '60px'" >
@@ -20,16 +25,19 @@
     onclick="document.getElementById('id1').style.fontSize = '100px'">
     Get me angrier!!!!!</button>
 
-    <button type="button" 
-    onclick="document.getElementById('id1').style.textShadow= '0px, 10px, 10px'">
-    Test me again!!!!!</button>
+    <button onclick="myFunction()">TEST ME AGAIN!!!</button>
 
-    <button id ="triggerButton">Span</button>
-    <h2>Today's number is: <span id="numberBox"></span></h2>
     
+
+    <!--<button id ="triggerButton">Span</button>
+    <h2>Today's number is: <span id="numberBox"></span></h2>
+    -->
+    
+   
+
     <script>
 
-        var numberSpan = document.getElementById("numberBox");     
+        /*var numberSpan = document.getElementById("numberBox");     
         var randomNumber = Math.random();
         numberSpan.innerText = randomNumber;
 
@@ -54,7 +62,14 @@
 
         myButton.addEventListener("click", changeBackground);
 
-        changeBackground();
+        changeBackground();*/
+
+        function myFunction() {
+        var str = document.getElementById("id1").innerHTML; 
+        var res = str.replace("HULK", "HULK SMAAAAAASH!!!!!!!!!");
+        document.getElementById("id1").innerHTML = res;
+        }
+        
     </script>
 
 </body>
