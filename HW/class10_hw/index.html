@@ -14,15 +14,15 @@
     </style>
 </head>
 <body id="mainBody">
-    <h1>Hello, World!</h1>
-    <h1 style="color red">I am the incredible<h1 id="id1">HULK</h1></h1>
+    <font color="blue"><h1>Hello, World!</h1></font>
+    <font color="red"><h1>I am the incredible</font><h1 id="id1">HULK</h1></h1>
 
     <button type="button" 
-    onclick="document.getElementById('id1').style.color = 'green', document.getElementById('id1').style.fontSize = '60px'" >
+    onclick="document.getElementById('id1').style.color = 'green', document.getElementById('id1').style.fontSize = '100px'" >
     Get me angry!</button>
 
     <button type="button" 
-    onclick="document.getElementById('id1').style.fontSize = '100px'">
+    onclick="document.getElementById('id1').style.fontSize = '150px'">
     Get me angrier!!!!!</button>
 
     <button onclick="myFunction()">TEST ME AGAIN!!!</button>
@@ -66,7 +66,7 @@
 
         function myFunction() {
         var str = document.getElementById("id1").innerHTML; 
-        var res = str.replace("HULK", "HULK SMAAAAAASH!!!!!!!!!");
+        var res = str.replace("HULK", "HULK SMAAAAAASH!");
         document.getElementById("id1").innerHTML = res;
         }
         
