@@ -1,0 +1,55 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>-->
+<style>
+    #Logo {
+        width: 150px;
+    }
+
+</style>
+
+
+</head>
+
+<header>
+        <img id="Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Pepsi_logo_2014.svg/2000px-Pepsi_logo_2014.svg.png" alt="pepsi logo">
+    </header>
+
+<body>
+    
+    <div class="buttons">
+        <button id="logoSwitch">Switch the Logo!</button>
+    </div>
+ 
+
+</body>
+<footer></footer>
+
+
+<script>
+    var switchLogo = function(){
+        var imgCurrentSrc = document.getElementById('Logo').src;
+
+        var src1 = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Pepsi_logo_2014.svg/2000px-Pepsi_logo_2014.svg.png";
+        var src2 = "https://freepngimg.com/thumb/pepsi_logo/32192-5-pepsi-logo-transparent-image.png";
+
+        if(imgCurrentSrc === src1){
+            document.getElementById('Logo').src = src2;
+
+        }
+        else {
+            document.getElementById('Logo').src = src1;
+        }
+
+    }
+
+    document.getElementById('logoSwitch').addEventListener('click' , switchLogo);
+
+</script>
+</html>
