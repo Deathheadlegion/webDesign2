@@ -13,7 +13,7 @@
     
     <main>
         <h1>Which car would you like to test:</h1>
-        
+
         <form action="" method="POST">
             <label for="carMake">Car Make:</label>
             <select name="make" id="carMake">
@@ -29,5 +29,24 @@
 
         </form>
     </main>
+
+    <script>
+        var audiModels      = ["S3", "S5", "S7"];
+        var bmwModels       = ["Series-3", "Series-4", "Series-5", "Series-7"];
+        var mercedesModels  = ["C-class", "E-class", "S-class"];
+        var porcheModels    = ["911", "Macan", "Panamera", "Cayenne"];
+
+        var makeDropdown = document.getElementById("carMake");
+        var modelDropdown = document.getElementById("carModel");
+        makeDropdown.addEventListener("change", function(){
+            console.log(this.value);
+
+            modelDropdown.innerHTML = "";
+            // <option value=" + text + "> + Text + </option>
+            for(var i = 0; i < bmwModels.length; i++){
+                modelDropdown.innerHTML += 'option value="' + bmwModels[i] + '">' + bmwModels[i] + '</option>';
+            }
+        });
+    </script>
 </body>
 </html>
