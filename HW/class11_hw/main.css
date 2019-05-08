@@ -25,6 +25,7 @@
 */
 body {
     background-color: #ddd;
+    margin: 0px;
 }
 
 .logoGOT {
@@ -102,5 +103,17 @@ body {
         float: none;
         display: block;
         text-align: left;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .homeImg{
+        margin: auto;
+        width: 600px;
+    }
+    
+    .newsImg{
+        margin: auto;
+        width: 600px;
     }
 }
