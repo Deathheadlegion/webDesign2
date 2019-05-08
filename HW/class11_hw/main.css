@@ -23,6 +23,18 @@
     transform: rotate(45deg) translate(-8px, -8px);
 }
 */
+body {
+    background-color: #ddd;
+}
+
+.logoGOT {
+    max-height: 44px;
+}
+
+.homeimg img{
+    width: 100%;
+}
+
 .topnav {
     background-color: #333;
     overflow: hidden;
