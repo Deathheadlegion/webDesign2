@@ -31,7 +31,21 @@ body {
     max-height: 44px;
 }
 
-.homeimg img{
+.homeImg{
+    margin: auto;
+    width: 359px;
+}
+
+.newsImg{
+    margin: auto;
+    width: 359px;
+}
+
+.homeImg img{
+    width: 100%;
+}
+
+.newsImg img{
     width: 100%;
 }
 
