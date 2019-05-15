@@ -18,6 +18,14 @@
         .blue-container {
             background-color: rgb(180, 241, 185);
         }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: chartreuse;
+            display: none;
+        }
+
     </style>
 </head>
 <body>
@@ -32,11 +40,26 @@
 
         <button id="colorToggle">Switch Color</button>
 
-        <div class="container">I am child 1</div>
+        <div class="container">
+            I am child 1
+            <div class="box"></div>
+        </div>
 
         <form action="" method="POST">
             <input type="text" name="name" id="myName">
             <input type="email" name="email" id="myEmail">
+
+            <select name="effect" id="FX">
+                <option value="" default></option>
+                <option value="show">Show an element</option>
+                <option value="hide">Hide an element</option>
+                <option value="fadein">Fade it in</option>
+                <option value="fadeout">Fade it out</option>
+                <option value="slidedown">Slide it down</option>
+                <option value="slideup">Slide it up</option>
+
+            </select>
+
             <input type="submit" value="Submit">
         </form>
 
@@ -47,6 +70,28 @@
             $('.header').css('color', 'darkred');
 
             console.log( $('body').css('background-color') );
+
+            $('#FX').change(function(){
+                var selection = $(this).val();
+                if(selection == "show"){
+                    $('.box').show();
+                }
+                else if(selection === 'hide'){
+                    $('.box').hide();
+                }
+                else if(selection === 'fadein'){
+                    $('.box').fadeIn(2000);
+                }
+                else if(selection === 'fadeout'){
+                    $('.box').fadeOut(3000);
+                }
+                else if(selection === 'slidedown'){
+                    $('.box').slideDown();
+                }
+                else if(selection === 'slideup'){
+                    $('.box').slideUp();
+                }
+            })
 
             $('#myName').blur(function(){
                 console.log( $('#myName').val() );
