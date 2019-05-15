@@ -1,0 +1,64 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery Functions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="layout.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"> -->
+    
+    <style>
+        .container {
+            width: 500px;
+            height: 400px;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+
+        <h1 class="header">Hello World</h1>
+
+        <button id="btn1">Append Things</button>
+        <button id="btn2">Prepend Things</button>
+
+        <button id="btn3">Remove Items</button>
+        <button id="btn4">Empty Container</button>
+        <div class="container">I am child 1</div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('body').css('background-color', 'lightblue');
+            $('.header').css('color', 'darkred');
+            
+
+            
+            
+
+            $('#btn1').click(function(){
+                $('.container').append('<div class="conatainer-child">I am child 2</div');
+                $('<div class="container-child">I am child 4</div>').appendTo('.container');
+                $('.container').after('<div class="addon">I am AFTER!!!<div>');
+            });
+
+            $('#btn2').click(function(){
+                $('<div class="container-child">I am child 5</div>').prependTo('.container');
+                $('.container').prepend('<div class="conatainer-child">I am child 3</div');
+                $('.container').before('<div class="addon">I am BEFORE!!!<div>');
+            })
+
+            $('#btn3').click(function(){
+                $('.addon').remove();
+            })
+
+            $('#btn4').click(function(){
+                $('.container').empty();
+            })
+
+        })
+    </script>
+    
+</body>
+</html>
