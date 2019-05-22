@@ -40,20 +40,22 @@
 </head>
 <body>
 
-        <h1 class="header">Candy Power!</h1>
-
-        <button id="btn1">Append Things</button>
-        <!-- <button id="btn2">Prepend Things</button> -->
-
-        <button id="btn3">Remove Items</button>
-        <button id="btn4">Empty Container</button>
-
-        <!-- <button id="colorToggle">Switch Color</button> -->
         
-        <form action="" method="POST">
+
+        <div class="container2">
+            <h1 class="header">Candy Power!</h1>
+            <button id="btn1">Append Things</button>
+            <!-- <button id="btn2">Prepend Things</button> -->
+
+            <button id="btn3">Remove Items</button>
+            <button id="btn4">Empty Container</button>
+
+            <!-- <button id="colorToggle">Switch Color</button> -->
+            
+            <form action="" method="POST">
                 <input type="text" name="name" id="myName">
                 <input type="email" name="email" id="myEmail">
-    
+
                 <select name="effect" id="FX">
                     <option value="" default></option>
                     <option value="show">Show an element</option>
@@ -62,11 +64,12 @@
                     <option value="fadeout">Fade it out</option>
                     <option value="slidedown">Slide it down</option>
                     <option value="slideup">Slide it up</option>
-    
+
                 </select>
-    
+
                 <input type="submit" value="Submit">
             </form>
+        </div>
 
         <div class="container">
 
@@ -122,7 +125,7 @@
     <script>
         $(document).ready(function(){
             $('body').css('background-color', 'lightblue');
-            $('.header').css('color', 'white');
+            $('.header').css('color', 'darkred');
 
             console.log( $('body').css('background-color') );
 
