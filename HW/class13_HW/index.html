@@ -43,12 +43,12 @@
         <h1 class="header">Candy Power!</h1>
 
         <button id="btn1">Append Things</button>
-        <button id="btn2">Prepend Things</button>
+        <!-- <button id="btn2">Prepend Things</button> -->
 
         <button id="btn3">Remove Items</button>
         <button id="btn4">Empty Container</button>
 
-        <button id="colorToggle">Switch Color</button>
+        <!-- <button id="colorToggle">Switch Color</button> -->
         
         <form action="" method="POST">
                 <input type="text" name="name" id="myName">
@@ -159,9 +159,9 @@
             });
 
             $('#btn1').click(function(){
-                $('.container').append('<div class="container-child">I am child 2</div');
-                $('<div class="container-child">I am child 4</div>').appendTo('.container');
-                $('.container').after('<div class="addon">I am AFTER!!!<div>');
+                $('.container').append('<img src="https://66.media.tumblr.com/b11123cbed2ee2774b45665293ba5a0d/tumblr_po2gjmyWTw1xvtqroo1_r1_1280.png" alt="candy">');
+                // $('<div class="container-child">I am child 4</div>').appendTo('.container');
+                // $('.container').after('<div class="addon">I am AFTER!!!<div>');
             });
 
             $('#btn2').click(function(){
@@ -171,7 +171,7 @@
             })
 
             $('#btn3').click(function(){
-                $('.addon').remove();
+                $('.imgAll').remove();
             })
 
             $('#btn4').click(function(){
