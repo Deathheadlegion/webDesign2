@@ -20,7 +20,7 @@
         }
 
         .box {
-            width: 150px;
+            width: 100%;
             height: 150px;
             background-color: chartreuse;
             display: none;
@@ -30,11 +30,15 @@
             width: 100%;
         }
 
+        .header {
+            color: rgb(251, 205, 255);
+        }
+
     </style>
 </head>
 <body>
 
-        <h1 class="header">Hello World</h1>
+        <h1 class="header">Candy Power!</h1>
 
         <button id="btn1">Append Things</button>
         <button id="btn2">Prepend Things</button>
@@ -43,8 +47,30 @@
         <button id="btn4">Empty Container</button>
 
         <button id="colorToggle">Switch Color</button>
+        
+        <form action="" method="POST">
+                <input type="text" name="name" id="myName">
+                <input type="email" name="email" id="myEmail">
+    
+                <select name="effect" id="FX">
+                    <option value="" default></option>
+                    <option value="show">Show an element</option>
+                    <option value="hide">Hide an element</option>
+                    <option value="fadein">Fade it in</option>
+                    <option value="fadeout">Fade it out</option>
+                    <option value="slidedown">Slide it down</option>
+                    <option value="slideup">Slide it up</option>
+    
+                </select>
+    
+                <input type="submit" value="Submit">
+            </form>
 
         <div class="container">
+
+            <div class="box">
+                <img src="https://66.media.tumblr.com/b11123cbed2ee2774b45665293ba5a0d/tumblr_po2gjmyWTw1xvtqroo1_r1_1280.png" alt="candy">
+            </div>
 
             <div class="floater-section med-width-50 pink large-width-33">
                 <img src="https://s7.orientaltrading.com/is/image/OrientalTrading/Candy-NameBrand-043018?$1X1main$&$NOWA$" alt="skittles">
@@ -83,26 +109,10 @@
             </div>
 
             I am child 1
-            <div class="box"></div>
+            
         </div>
 
-        <form action="" method="POST">
-            <input type="text" name="name" id="myName">
-            <input type="email" name="email" id="myEmail">
-
-            <select name="effect" id="FX">
-                <option value="" default></option>
-                <option value="show">Show an element</option>
-                <option value="hide">Hide an element</option>
-                <option value="fadein">Fade it in</option>
-                <option value="fadeout">Fade it out</option>
-                <option value="slidedown">Slide it down</option>
-                <option value="slideup">Slide it up</option>
-
-            </select>
-
-            <input type="submit" value="Submit">
-        </form>
+        
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script>
