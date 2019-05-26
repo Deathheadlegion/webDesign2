@@ -25,6 +25,8 @@ li#home {
     order: 0;
 }
 
+
+
 @media (min-width: 768px){
     ul {
         flex-direction: row;
@@ -42,3 +44,4 @@ li#home {
         order: 3;
     }
 }   
+
