@@ -5,6 +5,10 @@ body {
 
 /* Navigation */
 
+.container {
+    width: 100%;
+    margin: auto;
+}
 
 ul {
     padding-left:  0px;
@@ -47,6 +51,8 @@ li#home {
     background-color: lightsteelblue;
     color: brown;
     height: 212px;
+    width: 100%;
+    position: absolute;
 }
 
 ul img {
@@ -54,9 +60,23 @@ ul img {
     display: none;
 }
 
+#mobileHeader {
+    display: inline-block;
+}
+
 #mobileHeader img{
-    width: 100%;
+    width: 50%;
     background-color: rgb(228, 226, 226);
+    padding: 0px 150px 0px 0px;
+    
+}
+
+.clearFix {
+    clear: both;
+}
+
+.heroImg img {
+    width: 100%;
 }
 
 
