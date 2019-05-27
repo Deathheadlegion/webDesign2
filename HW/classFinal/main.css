@@ -4,11 +4,7 @@ body {
 }
 
 /* Navigation */
-nav {
-    background-color: lightsteelblue;
-    color: brown;
-    height: 170px;
-}2
+
 
 ul {
     padding-left:  0px;
@@ -22,11 +18,15 @@ ul {
 }
 
 li {
-    padding: 10px 0px 10px 0px;  
+    padding: 12px 0px 12px 0px;  
     /* background-color: mistyrose;  */
     font-size: 18px;
     border-bottom: solid 2px black;
-    
+}
+
+li a {
+    text-decoration: none;
+    color: red;
 }
 
 ul :first-child {
@@ -40,6 +40,13 @@ ul :last-child {
 
 li#home {
     order: 0;
+}
+
+#myLinks {
+    display: none;
+    background-color: lightsteelblue;
+    color: brown;
+    height: 212px;
 }
 
 ul img {
