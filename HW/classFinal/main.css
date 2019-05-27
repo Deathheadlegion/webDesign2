@@ -19,18 +19,19 @@ ul {
     justify-content: space-evenly;
     /* align-items: center; */
     text-align: center;
+    box-shadow: 0px 2px 5px grey;
 }
 
 li {
     padding: 12px 0px 12px 0px;  
     /* background-color: mistyrose;  */
     font-size: 18px;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px grey;
 }
 
 li a {
     text-decoration: none;
-    color: red;
+    color: #ee3b33;
 }
 
 ul :first-child {
@@ -65,8 +66,8 @@ ul img {
 }
 
 #mobileHeader img{
-    width: 50%;
-    background-color: rgb(228, 226, 226);
+    width: 100%;
+    background-color: rgb(245, 245, 245);
     padding: 0px 150px 0px 0px;
     
 }

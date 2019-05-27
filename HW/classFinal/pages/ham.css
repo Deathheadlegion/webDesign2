@@ -33,6 +33,7 @@
 
  .hamburger {
     padding: 15px 15px;
+    float: right;
     cursor: pointer;
     transition-property: opacity, filter;
     transition-duration: 0.5s;
@@ -42,9 +43,8 @@
     text-transform: none;
     background-color: transparent;
     border: 0;
-    margin: auto;
+    margin: 0px 0px 0px 0px;
     overflow: visible; 
-    display: inline-block;
   }
   
     .hamburger:hover {
@@ -54,7 +54,7 @@
     .hamburger.is-active .hamburger-inner,
     .hamburger.is-active .hamburger-inner::before,
     .hamburger.is-active .hamburger-inner::after {
-      background-color: #000; }
+      background-color: #ee3b33; }
       
   
   .hamburger-box {
