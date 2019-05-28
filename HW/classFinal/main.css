@@ -98,7 +98,7 @@ ul img {
 }
 
 .heroText {
-    width: 50%;
+    width: 185px;
     position: absolute;
     margin: -30% 0% 0% 6%;
     text-shadow: 0px 2px 2px black;
@@ -129,6 +129,7 @@ ul img {
 @media (min-width: 572px) {
     .heroText {
         font-size: 45px;
+        width: 275px;
     }
 
     .problem p {
@@ -168,7 +169,7 @@ ul img {
         display: flex;
         background-color: rgb(224, 237, 255);
         color: brown;
-        height: 55px;
+        height: 75px;
         width: 100%;
         margin: 0px 0px 0px 0px;
     }
@@ -190,9 +191,9 @@ ul img {
     }
     
     li {
-        padding: 17px 0px 10px 0px;  
+        padding: 20px 0px 10px 0px;  
         /* background-color: mistyrose;  */
-        font-size: 18px;
+        font-size: 24px;
         border-bottom: none;
     }
     
@@ -212,7 +213,7 @@ ul img {
     
     ul :last-child {
         border-bottom: none;
-        padding: 17px 0px 10px 0px;
+        padding: 20px 0px 10px 0px;
     } 
 
     li#home {
@@ -220,7 +221,7 @@ ul img {
     }
     
     ul img {
-        height: 55px;
+        height: 75px;
         display: flex;
     }
     
@@ -234,9 +235,9 @@ ul img {
     }
     
     .heroText {
-        width: 50%;
+        width: 275px;
         position: absolute;
-        margin: -30% 0% 0% 6%;
+        margin: -27% 0% 0% 6%;
         text-shadow: 0px 2px 2px black;
         font-family: 'Montserrat', Arial, sans-serif;
         text-align: left;
