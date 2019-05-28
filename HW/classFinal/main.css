@@ -5,7 +5,7 @@ body {
     background-color: #ffffff;
 }
 
-/* Navigation */
+/* ----------------Navigation ---------------------*/
 
 .container {
     width: 100%;
@@ -77,7 +77,7 @@ ul img {
 #navParent {
     position: relative;
 }
-
+/* Hamburger Menu */
 #hamMenu {
     float: right;
 }
@@ -86,6 +86,7 @@ ul img {
     clear: both;
 }
 
+/* -----------Hero Section of Homepage---------- */
 .heroImg img {
     width: 100%;
 }
@@ -95,12 +96,20 @@ ul img {
     position: relative;
     margin: -32% 0% 0% 6%;
     text-shadow: 0px 2px 2px black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     text-align: left;
     color: white;
     font-size: 30px;
 }
 
+.problem {
+    color: black;
+    font-size: 14px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 30px 15px 0px 15px;
+}
+
+/* Hero adjustment for midway screen */
 @media (min-width: 572px) {
     .heroText {
         font-size: 45px;
