@@ -116,15 +116,23 @@ ul img {
     color: black;
     font-size: 14px;
     font-family: 'Montserrat', Arial, sans-serif;
-    margin: 20px 15px 0px 15px;
+    margin: 40px 25px 40px 25px;
     display: block;
     font-weight: 600;
+}
+
+.problem p {
+    margin: 0px 0px 0px 0px;
 }
 
 /* Hero adjustment for midway screen */
 @media (min-width: 572px) {
     .heroText {
         font-size: 45px;
+    }
+
+    .problem p {
+        font-size: 18px;
     }
 }
 
@@ -135,9 +143,14 @@ ul img {
 }
 
 /* footer */
-footer h2 {
-    background-color: lightskyblue;
+.footer {
+    background-color: black;
     padding: 15px;
+    color: white;
+}
+
+.footerAddress {
+    font-size: 12px;
 }
 
 /******************************** Beginning of Tablet************************ */
@@ -211,21 +224,6 @@ footer h2 {
         display: flex;
     }
     
-    /* #mobileHeader {
-        float: left;
-        width: 75%;
-    }
-    
-    #mobileHeader img{
-        width: 100%;
-        background-color: white;
-        
-    }
-    
-    #navParent {
-        position: relative;
-    } */
-    
     .clearFix {
         clear: both;
     }
@@ -243,7 +241,7 @@ footer h2 {
         font-family: 'Montserrat', Arial, sans-serif;
         text-align: left;
         color: white;
-        font-size: 30px;
+        font-size: 45px;
     }
     
     .heroSpace {
@@ -254,8 +252,12 @@ footer h2 {
         color: black;
         font-size: 14px;
         font-family: 'Montserrat', Arial, sans-serif;
-        margin: 20px 15px 0px 15px;
+        margin: 60px 50px 60px 50px;
         display: block;
+    }
+
+    .problem p {
+        font-size: 18px;
     }
     
     /* main home body */
