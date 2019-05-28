@@ -172,6 +172,7 @@ ul img {
         height: 75px;
         width: 100%;
         margin: 0px 0px 0px 0px;
+        font-family: 'Montserrat', Arial, sans-serif;
     }
 
     #hamMenu {
@@ -259,6 +260,30 @@ ul img {
 
     .problem p {
         font-size: 18px;
+    }
+
+    /* home picture grid */
+    .categories {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    } 
+
+    .categories div {
+        width: 33.3333%;
+        padding: 10px 5px 10px 5px;    
+    }
+
+    .categories :first-child {
+        padding: 10px 5px 10px 10px;
+    }
+
+    .categories :last-child {
+        padding: 10px 10px 10px 5px;
+    }
+
+    .categories img{
+        width: 100%;
     }
     
     /* main home body */
