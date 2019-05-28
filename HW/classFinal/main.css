@@ -12,6 +12,10 @@ body {
     margin: auto;
 }
 
+.header {
+    background-color: rgb(224, 237, 255);
+}
+
 ul {
     padding-left:  0px;
     margin: 0px;
@@ -25,7 +29,7 @@ ul {
 }
 
 li {
-    padding: 0px 0px 10px 0px;  
+    padding: 0px 0px 7px 0px;  
     /* background-color: mistyrose;  */
     font-size: 18px;
     border-bottom: solid 2px grey;
@@ -36,13 +40,9 @@ li a {
     color: #ee3b33;
 }
 
-ul :first-child {
-    border-bottom: none;
-    padding: 0px;
-} 
-
 ul :last-child {
     border-bottom: none;
+    padding: 0px 0px 0px 0px;
 } 
 
 li#home {
@@ -51,15 +51,14 @@ li#home {
 
 #myLinks {
     display: none;
-    background-color: lightsteelblue;
+    background-color: lightskyblue;
     color: brown;
     height: 155px;
     width: 100%;
-    margin: 0px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
 }
 
 ul img {
-    height: 100px;
     display: none;
 }
 
@@ -70,7 +69,7 @@ ul img {
 
 #mobileHeader img{
     width: 100%;
-    background-color: white;
+    background-color: rgb(224, 237, 255);
     
 }
 
@@ -119,6 +118,7 @@ ul img {
     font-family: 'Montserrat', Arial, sans-serif;
     margin: 20px 15px 0px 15px;
     display: block;
+    font-weight: 600;
 }
 
 /* Hero adjustment for midway screen */
@@ -136,7 +136,7 @@ ul img {
 
 /* footer */
 footer h2 {
-    background-color: lightsteelblue;
+    background-color: lightskyblue;
     padding: 15px;
 }
 
@@ -153,9 +153,9 @@ footer h2 {
 
     #myLinks2 {
         display: flex;
-        background-color: lightsteelblue;
+        background-color: rgb(224, 237, 255);
         color: brown;
-        height: 155px;
+        height: 55px;
         width: 100%;
         margin: 0px 0px 0px 0px;
     }
@@ -169,7 +169,7 @@ footer h2 {
         margin: 0px;
         list-style: none;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
         /* align-items: center; */
         text-align: center;
@@ -177,10 +177,10 @@ footer h2 {
     }
     
     li {
-        padding: 0px 0px 10px 0px;  
+        padding: 17px 0px 10px 0px;  
         /* background-color: mistyrose;  */
         font-size: 18px;
-        border-bottom: solid 2px grey;
+        border-bottom: none;
     }
     
     li a {
@@ -190,20 +190,25 @@ footer h2 {
     
     ul :first-child {
         border-bottom: none;
-        padding: 0px;
+        padding: 0px 0px 0px 0px;
+    } 
+
+    ul :first-child img{
+        padding: 0px 0px 0px 0px;
     } 
     
     ul :last-child {
         border-bottom: none;
+        padding: 17px 0px 10px 0px;
     } 
-    
+
     li#home {
         order: 0;
     }
     
     ul img {
-        height: 100px;
-        display: none;
+        height: 55px;
+        display: flex;
     }
     
     /* #mobileHeader {
