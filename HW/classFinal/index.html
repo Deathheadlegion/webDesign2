@@ -16,7 +16,7 @@
         <!-- whole page -->
         <div class="container">
 
-            <!-- beginning of navigation -->
+            <!-- beginning of phone navigation -->
             <div class="header">
                 <header>
 
@@ -31,6 +31,7 @@
                                 </span>
                             </button>   
                         </div>
+                        <div class="clearFix"></div>
                         
                         <ul id="myLinks">
                             <li><img src="images/logo1.png" alt="logo"></li>
@@ -44,6 +45,29 @@
                 <div class="clearFix"></div>
             </div>
 
+            <!-- beginning of tablet and desktop nav -->
+            <div class="header2">
+                    <header>
+    
+                        <nav id="navParent">
+                            <div id="mobileHeader">
+                                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                            </div>
+                            
+                            <div class="clearFix"></div>
+                            
+                            <ul id="myLinks2">
+                                <li><img src="images/logo1.png" alt="logo"></li>
+                                <li><a href="index.html" class="active">Home</a></li>
+                                <li><a href="pages/about.html">About</a></li>
+                                <li><a href="pages/donations.html">Donations</a></li>
+                                <li><a href="pages/blog.html">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <div class="clearFix"></div>
+                </div>
+
             <!-- main body -->
             <div class="main1">
 
@@ -52,7 +76,6 @@
                     <img src="images/longer1.jpg" alt="two people hugging">
                     <h1 class="heroText">This is where hope begins</h1>  
                 </div>
-                <div class="heroSpace"></div>
 
                 <div class="problem">
                     <p>Over 600,000 Americans die from heart attacks every year and many could be saved if their families and fellow workers knew what first aid steps to take when someone has a heart attack</p>
@@ -72,7 +95,12 @@
                 $hamburger.on("click", function(e) {
                     $hamburger.toggleClass("is-active");
                     $("#myLinks").toggle();
+
+
                 });
+
+                
+
             </script>
                 
         </div>

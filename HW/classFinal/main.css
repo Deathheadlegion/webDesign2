@@ -25,7 +25,7 @@ ul {
 }
 
 li {
-    padding: 12px 0px 12px 0px;  
+    padding: 0px 0px 10px 0px;  
     /* background-color: mistyrose;  */
     font-size: 18px;
     border-bottom: solid 2px grey;
@@ -53,9 +53,9 @@ li#home {
     display: none;
     background-color: lightsteelblue;
     color: brown;
-    height: 212px;
+    height: 155px;
     width: 100%;
-    margin: 130px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 ul img {
@@ -77,6 +77,13 @@ ul img {
 #navParent {
     position: relative;
 }
+
+/* -----------------------Navigation 2----------- */
+.header2 {
+    display: none;
+}
+
+
 /* Hamburger Menu */
 #hamMenu {
     float: right;
@@ -94,7 +101,7 @@ ul img {
 .heroText {
     width: 50%;
     position: absolute;
-    margin: -32% 0% 0% 6%;
+    margin: -30% 0% 0% 6%;
     text-shadow: 0px 2px 2px black;
     font-family: 'Montserrat', Arial, sans-serif;
     text-align: left;
@@ -110,7 +117,7 @@ ul img {
     color: black;
     font-size: 14px;
     font-family: 'Montserrat', Arial, sans-serif;
-    margin: 30px 15px 0px 15px;
+    margin: 20px 15px 0px 15px;
     display: block;
 }
 
@@ -135,21 +142,122 @@ footer h2 {
 
 /******************************** Beginning of Tablet************************ */
 @media (min-width: 768px){
+
+    .header {
+        display: none;
+    }
+
+    .header2 {
+        display: block;
+    }
+
+    #myLinks2 {
+        display: flex;
+        background-color: lightsteelblue;
+        color: brown;
+        height: 155px;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+
+    #hamMenu {
+        display: none;
+    }
+
     ul {
-        flex-direction: row;
+        padding-left:  0px;
+        margin: 0px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* align-items: center; */
+        text-align: center;
+        box-shadow: 0px 2px 5px grey;
     }
     
-
-    /* li#home {
-        order: 1;
+    li {
+        padding: 0px 0px 10px 0px;  
+        /* background-color: mistyrose;  */
+        font-size: 18px;
+        border-bottom: solid 2px grey;
     }
-
-    li:nth-last-child(2){
-        order: 2;
+    
+    li a {
+        text-decoration: none;
+        color: #ee3b33;
     }
-
-    li:nth-last-child(1){
-        order: 3;
+    
+    ul :first-child {
+        border-bottom: none;
+        padding: 0px;
+    } 
+    
+    ul :last-child {
+        border-bottom: none;
+    } 
+    
+    li#home {
+        order: 0;
+    }
+    
+    ul img {
+        height: 100px;
+        display: none;
+    }
+    
+    /* #mobileHeader {
+        float: left;
+        width: 75%;
+    }
+    
+    #mobileHeader img{
+        width: 100%;
+        background-color: white;
+        
+    }
+    
+    #navParent {
+        position: relative;
     } */
+    
+    .clearFix {
+        clear: both;
+    }
+    
+    /* -----------Hero Section of Homepage---------- */
+    .heroImg img {
+        width: 100%;
+    }
+    
+    .heroText {
+        width: 50%;
+        position: absolute;
+        margin: -30% 0% 0% 6%;
+        text-shadow: 0px 2px 2px black;
+        font-family: 'Montserrat', Arial, sans-serif;
+        text-align: left;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .heroSpace {
+        height: 0px;
+    }
+    
+    .problem {
+        color: black;
+        font-size: 14px;
+        font-family: 'Montserrat', Arial, sans-serif;
+        margin: 20px 15px 0px 15px;
+        display: block;
+    }
+    
+    /* main home body */
+    .main1 {
+        display: flex;
+        flex-direction: column;
+    }
+
 }   
 
