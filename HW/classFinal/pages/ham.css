@@ -1,10 +1,4 @@
-/*!
- * Hamburgers
- * @description Tasty CSS-animated hamburgers
- * @author Jonathan Suh @jonsuh
- * @site https://jonsuh.com/hamburgers
- * @link https://github.com/jonsuh/hamburgers
- */
+
 
 /*
      * Elastic
@@ -30,7 +24,7 @@
         transform: translate3d(0, -20px, 0) rotate(-270deg);
         transition-delay: 0.075s; }
 
-
+/* Hamburger Default */
  .hamburger {
     padding: 15px 15px;
     float: right;
