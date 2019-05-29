@@ -3,39 +3,72 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>jQuery Functions</title>
+    <title>DONATIONS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <link href="pages/ham.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css">
+    <link href="../pages/ham.css" rel="stylesheet">
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.js"> -->
     
     
 </head>
 <body>
-    <header>
+    <!-- whole page -->
+    <div class="container">
 
-        <div id="mobileHeader"><img src="images/logo.png" alt="logo"></div>
-        <nav>
+        <!-- beginning of phone navigation -->
+        <div class="header">
+            <header>
 
-            <button class="hamburger hamburger--elastic " type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>   
-            
-            <ul id="myLinks">
-                <li><img src="images/logo1.png" alt="logo"></li>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="donations.html" class="active">Donations</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+                <nav id="navParent">
+                    <div id="mobileHeader">
+                        <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+                    </div>
+                    <div id="hamMenu">
+                        <button class="hamburger hamburger--elastic " type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>   
+                    </div>
+                    <div class="clearFix"></div>
+                    
+                    <ul id="myLinks">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="donations.html" class="active">Donations</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="clearFix"></div>
+        </div>
 
-    <div>
-        
-    </div>
+        <!-- beginning of tablet and desktop nav -->
+        <div class="header2">
+            <header>
+
+                <nav id="navParent">
+                    <ul id="myLinks2">
+                        <li><a href="../index.html"><img src="../images/logo.png" alt="logo"></li></a>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="donations.html" class="active">Donations</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="clearFix"></div>
+        </div>
+
+        <!-- main body -->
+        <div class="main1">
+
+            <!-- hero image and text -->
+            <div class="heroImg">
+                <img src="../images/construction.jpg" alt="two people hugging">
+                <h1 class="heroText">Donations</h1>  
+            </div>
+    </div>  
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 

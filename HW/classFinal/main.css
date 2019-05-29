@@ -15,6 +15,15 @@ h1, h2, p {
 
 /* ----------------Navigation ---------------------*/
 
+.active {
+    color: #ee3b33;
+}
+
+a {
+    text-decoration: none;
+    color: #ee3b33;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -45,7 +54,7 @@ li {
 
 li a {
     text-decoration: none;
-    color: #ee3b33;
+    color: black;
 }
 
 ul :last-child {
@@ -60,7 +69,7 @@ li#home {
 #myLinks {
     display: none;
     background-color: rgb(224, 237, 255);
-    color: brown;
+    color: black;
     height: 155px;
     width: 100%;
     margin: 5px 0px 0px 0px;
@@ -213,7 +222,7 @@ ul img {
     #myLinks2 {
         display: flex;
         background-color: rgb(224, 237, 255);
-        color: brown;
+        color: black;
         height: 75px;
         width: 100%;
         margin: 0px 0px 0px 0px;
@@ -245,7 +254,7 @@ ul img {
     
     li a {
         text-decoration: none;
-        color: #ee3b33;
+        color: black;
     }
     
     ul :first-child {
