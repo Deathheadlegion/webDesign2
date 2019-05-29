@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 /************************* Default Mobile**************************/
 body {
-    margin: 0px;
+    margin: 0px 00px 0px 0px;
     background-color: #ffffff;
+}
+
+head {
+    margin: 0px;
+}
+
+h1, h2, p {
+    font-family: 'Montserrat', Arial, sans-serif;
 }
 
 /* ----------------Navigation ---------------------*/
@@ -51,7 +59,7 @@ li#home {
 
 #myLinks {
     display: none;
-    background-color: lightskyblue;
+    background-color: rgb(224, 237, 255);
     color: brown;
     height: 155px;
     width: 100%;
@@ -64,7 +72,7 @@ ul img {
 
 #mobileHeader {
     float: left;
-    width: 75%;
+    width: 100%;
 }
 
 #mobileHeader img{
@@ -116,25 +124,42 @@ ul img {
     color: black;
     font-size: 14px;
     font-family: 'Montserrat', Arial, sans-serif;
-    margin: 40px 25px 40px 25px;
     display: block;
     font-weight: 600;
 }
 
 .problem p {
-    margin: 0px 0px 0px 0px;
+    padding: 40px 25px 40px 25px;
 }
 
-/* Hero adjustment for midway screen */
-@media (min-width: 572px) {
-    .heroText {
-        font-size: 45px;
-        width: 275px;
-    }
 
-    .problem p {
-        font-size: 18px;
-    }
+/* home picture grid */
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} 
+
+.categories div {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+.categories img{
+    width: 100%;
+    
+}
+
+.categories h2 {
+    padding: 20px 25px 5px 25px;
+    margin: 0px;
+    font-size: 24px;
+}
+
+.categories p {
+    font-size: 14px;
+    padding: 5px 25px 40px 25px;
+    margin: 0px;
 }
 
 /* main home body */
@@ -152,6 +177,26 @@ ul img {
 
 .footerAddress {
     font-size: 12px;
+}
+
+/* Hero adjustment for midway screen */
+@media (min-width: 572px) {
+    .heroText {
+        font-size: 45px;
+        width: 275px;
+    }
+
+    .problem p {
+        font-size: 18px;
+    }
+
+    .categories p {
+        font-size: 18px;
+    }
+
+    .categories h2 {
+        font-size: 28px;
+    }
 }
 
 /******************************** Beginning of Tablet************************ */
@@ -270,20 +315,12 @@ ul img {
     } 
 
     .categories div {
-        width: 33.3333%;
-        padding: 10px 5px 10px 5px;    
-    }
-
-    .categories :first-child {
-        padding: 10px 5px 10px 10px;
-    }
-
-    .categories :last-child {
-        padding: 10px 10px 10px 5px;
+        width: 33.3333333%;
     }
 
     .categories img{
         width: 100%;
+        
     }
     
     /* main home body */
