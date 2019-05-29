@@ -19,6 +19,25 @@ h1, h2, p {
     color: #ee3b33;
 }
 
+a:hover {
+    color: #ff7231;
+    transition: color .3s;
+    transition-timing-function: ease;
+}
+
+/* a {
+    color: #00c4cc;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition: color .3s;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+} */
+
 a {
     text-decoration: none;
     color: #ee3b33;
