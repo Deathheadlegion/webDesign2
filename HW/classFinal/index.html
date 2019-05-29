@@ -13,27 +13,44 @@
 </head>
 <body>
 
-        <!-- whole page -->
-        <div class="container">
+    <!-- whole page -->
+    <div class="container">
 
-            <!-- beginning of phone navigation -->
-            <div class="header">
+        <!-- beginning of phone navigation -->
+        <div class="header">
+            <header>
+
+                <nav id="navParent">
+                    <div id="mobileHeader">
+                        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div id="hamMenu">
+                        <button class="hamburger hamburger--elastic " type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>   
+                    </div>
+                    <div class="clearFix"></div>
+                    
+                    <ul id="myLinks">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="pages/about.html">About</a></li>
+                        <li><a href="pages/donations.html">Donations</a></li>
+                        <li><a href="pages/blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="clearFix"></div>
+        </div>
+
+        <!-- beginning of tablet -->
+        <div class="header2">
                 <header>
 
                     <nav id="navParent">
-                        <div id="mobileHeader">
-                            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-                        </div>
-                        <div id="hamMenu">
-                            <button class="hamburger hamburger--elastic " type="button">
-                                <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                </span>
-                            </button>   
-                        </div>
-                        <div class="clearFix"></div>
-                        
-                        <ul id="myLinks">
+                        <ul id="myLinks2">
+                            <li><a href="index.html"><img src="images/logo.png" alt="logo"></li></a>
                             <li><a href="index.html" class="active">Home</a></li>
                             <li><a href="pages/about.html">About</a></li>
                             <li><a href="pages/donations.html">Donations</a></li>
@@ -44,72 +61,45 @@
                 <div class="clearFix"></div>
             </div>
 
-            <!-- beginning of tablet and desktop nav -->
-            <div class="header2">
-                    <header>
-    
-                        <nav id="navParent">
-                            <ul id="myLinks2">
-                                <li><a href="index.html"><img src="images/logo.png" alt="logo"></li></a>
-                                <li><a href="index.html" class="active">Home</a></li>
-                                <li><a href="pages/about.html">About</a></li>
-                                <li><a href="pages/donations.html">Donations</a></li>
-                                <li><a href="pages/blog.html">Blog</a></li>
-                            </ul>
-                        </nav>
-                    </header>
-                    <div class="clearFix"></div>
-                </div>
+        <!-- main body -->
+        <div class="main1">
 
-            <!-- main body -->
-            <div class="main1">
-
-                <!-- hero image and text -->
-                <div class="heroImg">
-                    <img src="images/longer1.jpg" alt="two people hugging">
-                    <h1 class="heroText">This is where hope begins.</h1>  
-                </div>
-
-                <div class="problem">
-                    <p>Over 600,000 Americans die from heart attacks every year and many could be saved if their families and fellow workers knew what first aid steps to take when someone has a heart attack</p>
-                </div>
-
-                <div class="categories">
-                    <div><a href="pages/about.html">
-                        <img src="images/2.jpg" alt="people hugging">
-                        <h2>Our Mission</h2>
-                        <p>Heart Center of America has a three part action plan to save lives from heart attack and heart disease</p>
-                    </a></div>
-                    <div>
-                        <img src="images/5.jpg" alt="2 people marathon">
-                    </div>
-                    <div>
-                        <img src="images/7.jpg" alt="man sitting on bench">
-                    </div>
-                </div>
-
-                <!-- footer -->
-                <footer class="footer">
-                    <p>PRESS PAGE &nbsp;&nbsp;| &nbsp;&nbsp;PRIVACY POLICY &nbsp;&nbsp; |&nbsp;&nbsp; DISCLAIMER &nbsp;&nbsp;|&nbsp;&nbsp; TERMS OF USE</P>
-                    <p class="footerAddress">Heart Center of America • 2902 Tazewell Pike, Suite G, Knoxville, TN 37918 • (865) 687-5838 </p>
-                </footer>
+            <!-- hero image and text -->
+            <div class="heroImg">
+                <img src="images/longer1.jpg" alt="two people hugging">
+                <h1 class="heroText">This is where hope begins.</h1>  
             </div>
-            
-            <!-- beginning of script -->
-            <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-            <script>
-                var $hamburger = $(".hamburger");
-                $hamburger.on("click", function(e) {
-                    $hamburger.toggleClass("is-active");
-                    $("#myLinks").slideToggle(400);
+            <div class="problem">
+                <p>Over 600,000 Americans die from heart attacks every year and many could be saved if their families and fellow workers knew what first aid steps to take when someone has a heart attack</p>
+            </div>
 
-                });
+            <div class="categories">
+                <div><a href="pages/about.html">
+                    <img src="images/2.jpg" alt="people hugging">
+                    <h2>Our Mission</h2>
+                    <p>Heart Center of America has a three part action plan to save lives from heart attack and heart disease</p>
+                </a></div>
+                <div>
+                    <img src="images/5.jpg" alt="2 people marathon">
+                </div>
+                <div>
+                    <img src="images/7.jpg" alt="man sitting on bench">
+                </div>
+            </div>
 
-                
-
-            </script>
-                
+            <!-- footer -->
+            <footer class="footer">
+                <p>PRESS PAGE &nbsp;&nbsp;| &nbsp;&nbsp;PRIVACY POLICY &nbsp;&nbsp; |&nbsp;&nbsp; DISCLAIMER &nbsp;&nbsp;|&nbsp;&nbsp; TERMS OF USE</P>
+                <p class="footerAddress">Heart Center of America • 2902 Tazewell Pike, Suite G, Knoxville, TN 37918 • (865) 687-5838 </p>
+            </footer>
         </div>
+        
+        <!-- beginning of script -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <script src="main.js"></script>
+
+    </div>
 </body>
 </html>
