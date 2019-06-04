@@ -72,6 +72,7 @@ li {
     /* background-color: mistyrose;  */
     font-size: 18px;
     border-bottom: solid 2px grey;
+    font-family: 'Montserrat', Arial, sans-serif;
 }
 
 li a {
@@ -114,7 +115,7 @@ ul img {
 
 #navParent {
     position: relative;
-    background-color: black;
+    background-color: white;
 }
 
 /* -----------------------Navigation 2----------- */
@@ -162,10 +163,13 @@ ul img {
 }
 
 .problem p {
-    padding: 40px 25px 40px 25px;
+    padding: 0px 25px 40px 25px;
     line-height: 24px;
 }
 
+#homeProblem {
+    padding: 40px 25px 40px 25px;
+}
 
 /* home picture grid */
 .categories {
@@ -205,6 +209,11 @@ ul img {
     flex-direction: column;
 }
 
+.aboutMission {
+    padding: 40px 25px 0px 25px;
+    font-size: 24px;
+}
+
 /* footer */
 .footer {
     background-color: black;
@@ -235,9 +244,15 @@ ul img {
         width: 275px;
     }
 
+    .aboutMission {
+        padding: 40px 25px 0px 25px;
+        font-size: 36px;
+    }
+
     .problem p {
         font-size: 18px;
         line-height: 35px;
+        padding: 0px 25px 40px 25px;
     }
 
     .categories p {
@@ -354,8 +369,14 @@ ul img {
         display: block;
     }
 
+    .aboutMission {
+        padding: 0px 25px 0px 25px;
+        font-size: 36px;
+    }
+
     .problem p {
         font-size: 18px;
+        padding: 0px 25px 40px 25px;
     }
 
     /* home picture grid */

@@ -35,7 +35,7 @@
     font: inherit;
     color: inherit;
     text-transform: none;
-    background-color: black;
+    background-color: inherit;
     border: 0;
     margin: 0px 0px 0px 0px;
     overflow: visible; 
@@ -64,7 +64,7 @@
     .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
       width: 40px;
       height: 4px;
-      background-color: white;
+      background-color: #ee3b33;
       border-radius: 4px;
       position: absolute;
       transition-property: transform;
