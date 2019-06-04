@@ -27,6 +27,7 @@ a:hover {
 
 a:hover img {
     opacity: .8;
+    transition: .3s;
 }
 
 /* a {
