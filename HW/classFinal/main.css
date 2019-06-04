@@ -53,9 +53,6 @@ a {
     margin: auto;
 }
 
-.header {
-    background-color: rgb(224, 237, 255);
-}
 
 ul {
     padding-left:  0px;
@@ -181,11 +178,11 @@ ul img {
 
 .categories img{
     width: 100%;
-    
 }
 
 .categoriesText {
     margin: 0px 20px 0px 20px;
+    text-align: center;
 }
 
 .categories h2 {
