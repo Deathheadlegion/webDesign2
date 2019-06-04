@@ -384,5 +384,31 @@ ul img {
         flex-direction: column;
     }
 
+    /* footer */
+    .footer {
+        background-color: black;
+        padding: 15px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footerAddress {
+        font-size: 12px;
+    }
+
+    .socialMedia img {
+        max-height: 100px;
+    }
+
+    .bottomLinks a {
+        color: white;
+    }
+
+    .bottomLinks :hover{
+        color: #00c4cc;
+    }
+
 }   
 
