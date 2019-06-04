@@ -203,6 +203,12 @@ ul img {
     margin: 0px;
 }
 
+.categoriesTextAbout {
+    text-align: left;
+    padding: 0px 25px 40px 25px;
+    line-height: 24px;
+}
+
 /* main home body */
 .main1 {
     display: flex;
@@ -212,6 +218,7 @@ ul img {
 .aboutMission {
     padding: 40px 25px 0px 25px;
     font-size: 24px;
+    text-align: center;
 }
 
 /* footer */
@@ -261,7 +268,8 @@ ul img {
 
     .categories h2 {
         font-size: 28px;
-    }
+        line-height: 36px;
+        margin: 0px 0px 15px 0px;
 
 }
 
@@ -372,6 +380,7 @@ ul img {
     .aboutMission {
         padding: 0px 25px 0px 25px;
         font-size: 36px;
+        text-align: center;
     }
 
     .problem p {
@@ -398,6 +407,14 @@ ul img {
         text-align: center;
     }
 
+    .categoriesTextAbout {
+        text-align: left;
+    }
+
+    .categoriesTextAbout {
+        background-color: rgb(224, 237, 255);
+    }
+
     .categories div:first-child {
         margin: 10px 30px 10px 60px;
     }
@@ -415,6 +432,41 @@ ul img {
     }
 
     .categories img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    /* about Page categories set up */
+
+    .categoriesAbout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    } 
+
+    .steps {
+        width:100%;
+        margin: 10px;
+    }
+
+    .categoriesText {
+        text-align: center;
+    }
+
+    .categoriesTextAbout {
+        text-align: left;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .categoriesTextAbout h2{
+        padding: 20px 0px 0px 0px;
+    }
+
+    .categoriesTextAbout {
+        background-color: rgb(224, 237, 255);
+    }
+
+    .categoriesAbout img{
         width: 100%;
         border-radius: 50%;
     }
