@@ -131,6 +131,7 @@ ul img {
 /* -----------Hero Section of Homepage---------- */
 .heroImg img {
     width: 100%;
+    text-align: center;
 }
 
 .heroText {
@@ -141,7 +142,7 @@ ul img {
     font-family: 'Montserrat', Arial, sans-serif;
     text-align: left;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .heroSpace {
@@ -179,14 +180,14 @@ ul img {
 }
 
 .categories h2 {
-    padding: 20px 25px 5px 25px;
+    padding: 20px 0px 5px 0px;
     margin: 0px;
     font-size: 24px;
 }
 
 .categories p {
     font-size: 14px;
-    padding: 5px 25px 40px 25px;
+    padding: 5px 0px 40px 0px;
     margin: 0px;
 }
 
@@ -207,10 +208,22 @@ ul img {
     font-size: 12px;
 }
 
+.socialMedia img {
+    max-height: 100px;
+}
+
+.bottomLinks a {
+    color: white;
+}
+
+.bottomLinks :hover{
+    color: #00c4cc;
+}
+
 /* Hero adjustment for midway screen */
 @media (min-width: 572px) {
     .heroText {
-        font-size: 45px;
+        font-size: 38px;
         width: 275px;
     }
 
@@ -226,12 +239,11 @@ ul img {
     .categories h2 {
         font-size: 28px;
     }
+
 }
 
 /******************************** Beginning of Tablet************************ */
 @media (min-width: 768px){
-
-    
 
     .header {
         display: none;
@@ -319,7 +331,7 @@ ul img {
         font-family: 'Montserrat', Arial, sans-serif;
         text-align: left;
         color: white;
-        font-size: 45px;
+        font-size: 45PX;
     }
     
     .heroSpace {
@@ -358,7 +370,7 @@ ul img {
     }
 
     .categories div:first-child {
-        margin: 10px 20px 10px 60px;
+        margin: 10px 30px 10px 60px;
     }
 
     .categories div div:first-child {
@@ -366,7 +378,7 @@ ul img {
     }
 
     .categories div:last-child {
-        margin: 10px 60px 10px 20px;
+        margin: 10px 60px 10px 30px;
     }
 
     .categories div div:last-child {
