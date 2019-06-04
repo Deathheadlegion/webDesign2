@@ -355,12 +355,10 @@ ul img {
 
     .categoriesText {
         text-align: center;
-        background-color: rgb(224, 237, 255);
-        border-radius: 25%;
     }
 
     .categories div:first-child {
-        margin: 10px 15px 10px 10px;
+        margin: 10px 20px 10px 60px;
     }
 
     .categories div div:first-child {
@@ -368,7 +366,7 @@ ul img {
     }
 
     .categories div:last-child {
-        margin: 10px 10px 10px 15px;
+        margin: 10px 60px 10px 20px;
     }
 
     .categories div div:last-child {
