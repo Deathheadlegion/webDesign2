@@ -25,6 +25,10 @@ a:hover {
     transition-timing-function: ease;
 }
 
+a:hover img {
+    opacity: .8;
+}
+
 /* a {
     color: #00c4cc;
     text-decoration: none;
@@ -209,7 +213,7 @@ ul img {
 }
 
 .socialMedia img {
-    max-height: 100px;
+    max-height: 50px;
 }
 
 .bottomLinks a {
@@ -411,7 +415,7 @@ ul img {
     }
 
     .socialMedia img {
-        max-height: 100px;
+        max-height: 50px;
     }
 
     .bottomLinks a {
@@ -424,3 +428,20 @@ ul img {
 
 }   
 
+@media (min-width: 1080px){
+    .container {
+        max-width: 1080px;
+        margin: auto;
+    }
+
+    .heroText {
+        width: 275px;
+        position: absolute;
+        margin: -292px 0% 0% 6%;
+        text-shadow: 0px 2px 2px black;
+        font-family: 'Montserrat', Arial, sans-serif;
+        text-align: left;
+        color: white;
+        font-size: 45PX;
+    }
+}
