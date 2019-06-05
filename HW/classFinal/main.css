@@ -271,7 +271,21 @@ ul img {
     display: block;
 }
 
+.greeting {
+    display: none;
+    color: #ee3b33;
+    font-size: 36px;
+}
 
+.hide {
+    display: none;
+}
+
+.greetingShow {
+    display:block;
+    color: #ee3b33;
+    font-size: 36px;
+}
 
 .donation-box {
     width: 260px;
