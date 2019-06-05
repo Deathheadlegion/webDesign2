@@ -272,6 +272,7 @@ ul img {
 }
 
 .greeting {
+    text-align: center;
     display: none;
     color: #ee3b33;
     font-size: 36px;
