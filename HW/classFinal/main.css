@@ -714,9 +714,9 @@ ul img {
         color: #ee3b33;  
     }
 
-    .fadein-text h1,p {
+    /* .fadein-text h1,p {
         text-shadow: 0px 2px 5px grey;
-    }
+    } */
 
     .fadein-text:hover{
         opacity: 1;
