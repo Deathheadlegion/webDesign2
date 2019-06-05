@@ -298,28 +298,37 @@ ul img {
         position: relative;
     }
 
-    .blogImages h1,p{
+    .fadein-text{
+        transition: .5s ease;
         opacity: 0;
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;    
     }
 
-    .blogImages h1:hover{
-        opacity:1;
-        position: absolute;
+    .fadein-text:hover{
+        opacity: 1;
     }
 
-    .blogImages p:hover{
-        opacity:1;
-        position: absolute;
+    .fadeout-img {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
     }
+
+    .fadeout-img:hover {
+        opacity: 0.3;
+    }
+
     .blogImages img {
         width: 100%;
     }
-
-    .blogImages img:hover{
-        opacity: 0.2;
-        transition: 0.5s;
-    } 
 
     .header {
         display: none;
@@ -378,7 +387,7 @@ ul img {
     
     ul :last-child {
         border-bottom: none;
-        /* padding: 20px 0px 10px 0px; */
+        padding: 20px 0px 10px 0px;
     } 
 
     li#home {
@@ -567,5 +576,4 @@ ul img {
         font-size: 45PX;
     }
 }
-
-
+}
