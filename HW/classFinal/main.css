@@ -5,6 +5,9 @@ body {
     background-color: #ffffff;
 }
 
+
+
+
 head {
     margin: 0px;
 }
@@ -244,6 +247,13 @@ ul img {
     color: #00c4cc;
 }
 
+/* blog area */
+
+.blogImgGrid {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Hero adjustment for midway screen */
 @media (min-width: 572px) {
     .heroText {
@@ -275,6 +285,41 @@ ul img {
 
 /******************************** Beginning of Tablet************************ */
 @media (min-width: 768px){
+
+    /* blog site */
+    .blogImgGrid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .blogImages {
+        width: 33.3333333%;
+        position: relative;
+    }
+
+    .blogImages h1,p{
+        opacity: 0;
+        position: absolute;
+    }
+
+    .blogImages h1:hover{
+        opacity:1;
+        position: absolute;
+    }
+
+    .blogImages p:hover{
+        opacity:1;
+        position: absolute;
+    }
+    .blogImages img {
+        width: 100%;
+    }
+
+    .blogImages img:hover{
+        opacity: 0.2;
+        transition: 0.5s;
+    } 
 
     .header {
         display: none;
@@ -333,7 +378,7 @@ ul img {
     
     ul :last-child {
         border-bottom: none;
-        padding: 20px 0px 10px 0px;
+        /* padding: 20px 0px 10px 0px; */
     } 
 
     li#home {
@@ -522,3 +567,5 @@ ul img {
         font-size: 45PX;
     }
 }
+
+
