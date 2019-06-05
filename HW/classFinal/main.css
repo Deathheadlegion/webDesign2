@@ -5,7 +5,13 @@ body {
     background-color: #ffffff;
 }
 
+.blogImages img {
+    width: 100%;
+}
 
+.fadein-text {
+    padding: 0px 15px 0px 15px;
+}
 
 
 head {
@@ -69,6 +75,8 @@ ul {
     text-align: center;
     box-shadow: 0px 2px 5px grey;
 }
+
+
 
 li {
     padding: 0px 0px 7px 0px;  
@@ -181,6 +189,353 @@ ul img {
     justify-content: space-evenly;
 } 
 
+/* donation ////////////////////////////////////////////////////*/
+.headers-box {
+    background-color: rgba(1, 147, 160, 0.555);
+    padding: 1px;
+    margin-top: -205px;
+    margin-left: 90px;
+    width: 280px;
+    height: 280px;
+    display: block;
+    border-radius: 50%;
+}
+
+.all-headers {
+    color: #ffffff;
+    font-size: 29px;
+    text-align: center;
+    margin-top: 94px;
+    line-height: 44px;
+    padding: 0px 35px;
+
+}
+
+#img5 img{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.buttons-donate h4 {
+    font-size: 22px;
+    color: #0193A0;
+    margin: 30px;
+}
+
+
+.buttons-donate {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 240px;
+    padding: 10px 10px;
+    letter-spacing: 1.3px;
+
+}
+
+.btn-donate {
+    margin: 30px 0px 0px;
+    padding: 15px 25px;
+    line-height: 19px;
+    color: #ffffff;
+    font-size: 22px;
+
+}
+
+.buttons-donate button {
+    background-color: #FF8811;
+    border-bottom: 4px solid #0193A0;
+    border-right: 3px solid #0193A0;
+    width: 70%;
+}
+
+
+.btn-donate p{
+    color: #F5F5F5;
+
+}
+
+.shown {
+    display: block;
+    display: block;
+}
+
+.donation-container 
+.donation-container2 {
+	height: 1000px;
+	font-weight: 500;
+	font-size: 25px;
+    margin-top: 35px;
+    display: block;
+}
+
+
+
+.donation-box {
+    width: 260px;
+    min-height: 1192px;
+    margin-top: 45px;
+    margin-bottom: 178px;
+    padding: 20px;
+	background-color: #e0edff;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+#donation2 {
+    min-height: 1400px;
+}
+
+
+.donation-box .donate-button {
+    background-color: #ee3b33;
+    margin: center;
+	width: 150px;
+	color: white;
+    text-align: center;
+    padding: 15px 10px;
+	font-size: 22px;
+	bottom: 0px;
+	position: absolute;
+	cursor: pointer;
+    font-weight: 800;
+    
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+.donation-box .fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.donation-box .fields input {
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 4px;
+	border-width: 0px;
+	color: #5C5C5C;
+
+	font-weight: 500;
+	margin-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+}
+
+::-webkit-input-placeholder {
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+
+:-ms-input-placeholder {  
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+.donation-box .amount {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.donation-box .amount .button {
+    width: 42%;
+    margin: 0px 10px;
+	background-color: gray;
+	margin-bottom: 40px;
+	text-align: center;
+	color: white;
+	padding: 15px 0px 15px 0px;
+	border-radius: 4px;
+	font-size: 20px;
+	cursor: pointer;
+	
+	-webkit-transition: 400ms background-color;
+	-moz-transition: 800ms opacity, 800ms right;
+	-ms-transition: 800ms opacity, 800ms right;
+	-o-transition: 800ms opacity, 800ms right;
+	transition: 200ms background-color;
+}
+
+.donation-box .amount .button:hover {
+	background-color: #393939;
+}
+
+.donation-box .amount .button.selected {
+	background-color: #393939;
+}
+
+.donation-box .amount .button input {
+	min-width: 34px;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 20px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	border-bottom: 2px dashed white;
+	-webkit-font-smoothing: antialiased;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.set-amount {
+	max-width: 81px;
+}
+
+.fields label {
+    margin-bottom: 10px;
+}
+
+.switch {
+    position: relative;
+    background: white;
+    border-radius: 3px;
+}
+
+.switch-label {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 49%;
+    line-height: 26px;
+    font-size: 13px;
+    color: #5C5C5C;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.switch-label:active {
+    font-weight: bold;
+}
+
+.switch-label-off {
+    padding-left: 2px;
+}
+
+.switch-label-on {
+    padding-right: 2px;
+}
+
+.switch-input {
+    display: none;
+}
+.switch-input:checked + .switch-label {
+    font-weight: bold;
+    color: #ffffff;
+    
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 51%;
+}
+
+.switch-selection {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 2px;
+    width: 49%;
+    height: 22px;
+    background: #0193A0;
+    border-radius: 3px;
+    background-color: #0193A0;
+    
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+}
+
+.checkboxes {
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.checkboxes label {
+	position: relative;
+	top: -8px;
+	font-size: 13px;
+	color: gray;
+}
+
+.checkbox {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #e0edff;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+    outline: none;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+
+.checkbox:checked {
+	background-color: #0193A0;
+	border: 1px solid #0193A0;
+	color: white;
+}
+
+.checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: white;
+}
+
+.confirm {
+	display: none;
+	position: absolute;
+	top: 335px;
+	left: 15px;
+	right: 15px;
+	font-size: 16px;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.confirm i {
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: normal;
+}
+/* donation ////////////////////////////////////////////////////*/
+
 /* .categories div {
     width: 100%;
 } */
@@ -286,6 +641,42 @@ ul img {
 /******************************** Beginning of Tablet************************ */
 @media (min-width: 768px){
 
+    .donation-box {
+        width: 565px;
+        min-height: 1192px;
+        margin-top: 45px;
+        margin-bottom: 178px;
+        padding: 20px;
+        background-color: #e0edff;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        
+        -webkit-transition: all 0.15s ease-out;
+        -moz-transition: all 0.15s ease-out;
+        -o-transition: all 0.15s ease-out;
+        transition: all 0.15s ease-out;
+    }
+
+    .donation-box .donate-button {
+        background-color: #ee3b33;
+        margin: center;
+        width: 360px;
+        color: white;
+        text-align: center;
+        padding: 15px 10px;
+        font-size: 22px;
+        bottom: 0px;
+        position: absolute;
+        cursor: pointer;
+        font-weight: 800;
+        
+        margin-left: 15%;
+        margin-bottom: 20px;
+    }
+
     /* blog site */
     .blogImgGrid {
         display: flex;
@@ -299,14 +690,18 @@ ul img {
     }
 
     .fadein-text{
-        transition: .5s ease;
-        opacity: 0;
+        /* transition: .5s ease; */
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        text-align: center;    
+        text-align: center;  
+        color: #ee3b33;  
+    }
+
+    .fadein-text h1,p {
+        text-shadow: 0px 2px 5px grey;
     }
 
     .fadein-text:hover{
@@ -323,7 +718,7 @@ ul img {
     }
 
     .fadeout-img:hover {
-        opacity: 0.3;
+        opacity: 0.1;
     }
 
     .blogImages img {
